@@ -1,0 +1,24 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+.content_area{width: 1200px; margin: 150px auto;}
+
+.content_area h2{font-size: 1.8em; font-weight: 500; margin: 150px 0 50px 0; position: relative; padding-left: 20px;}
+.content_area h2::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+.content_area p{font-size: 1.1em; margin-bottom: 70px; line-height: 1.8em;}
+
+.fac{overflow: hidden; border: 1px solid #ccc; margin: 0 auto; text-align: center; width: 100%;}
+.fac li{float: left; width: 24.9%; border-right: 1px solid #ccc; padding: 40px 0 30px;}
+.fac li:last-child{border-right: none;}
+.fac dl{padding: 25px 0;}
+.fac dt{font-weight: 500; font-size: 20px; padding-bottom: 10px;}
+
+table{border-top: 2px solid #333; width: 100%; margin: 0 auto; text-align: center;}
+table tr th{width: 33.33%; font-size: 21px; padding: 25px 0; border-bottom: 1px solid #ccc; background: #f1f1f1;}
+table tr td{padding: 20px 0; border-bottom: 1px solid #ccc;}
+
+.list{text-align: justify;}
+.list li{margin: 0 0 25px 15px; line-height: 1.8em; position: relative;}
+.list li::before{content: ''; background: #ea5206; width: 5px; height: 5px; border-radius: 50%; position: absolute; top: 13px; left: -15px;}

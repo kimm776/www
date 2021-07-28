@@ -1,0 +1,47 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 0 auto;}
+
+.tabs .ul{overflow: hidden; margin: 130px 0 90px 190px;}
+.tabs .ul li{float: left; margin-left: 100px;}
+.tabs .ul li:first-child{margin-left: 0;}
+.tabs .ul li a{opacity: .4;}
+
+.contlist{border-top: 2px solid #333; margin: 50px 0 150px;}
+
+.contlist li{overflow: hidden; margin: 80px 0; position: relative; padding-bottom: 80px; border-bottom: 1px solid #ccc;}
+.contlist li img{float: left;}
+.contlist li dl{float: right; overflow: hidden; margin-bottom: 50px; width: 900px; }
+.contlist dl dt{font-size: 1.3em; font-weight: 500; margin-bottom: 40px;}
+.contlist dl dt .rent{font-size: .9em; font-weight: 500; background: royalblue; color: #fff; padding: 2px 15px; border-radius: 8px;}
+.contlist dl dt .plan{font-size: .9em; font-weight: 500; background: rgb(52, 154, 93); color: #fff; padding: 2px 15px; border-radius: 8px;}
+.contlist dl dd{font-weight: 300; line-height: 2.1em;  float: left; width: 450px;}
+.contlist dl dd span{font-weight: 400; color: #3e4c97; padding-right: 10px;}
+.contlist dl dd .fas{color: #3e4c97;}
+.contlist li .a1{background: rgb(238, 238, 238); padding: 12px 35px; color: #333; font-weight: 400; margin-top: 20px;
+    position: absolute; bottom: 80px; right: 166px; transition: all .2s ease-out;}
+.contlist li .a1:hover{background: rgb(219, 219, 219); text-decoration: underline;}
+.contlist li .a2{background: #ff8410; padding: 12px 35px; color: #fff; font-weight: 400; margin-top: 20px;
+    position: absolute; bottom: 80px; right: 0; transition: all .2s ease-out;}
+.contlist li .a2:hover{background: #ea5206; text-decoration: underline;}
+
+.contlist .page a{border: 1px solid #999; color: #444; font-weight: 300; display: block; width: 30px; padding: 3px 0; text-align: center; margin-left: 585px;}
+
+
+/* 이벤트 처리 */
+.event{width: 800px; height: 700px; position: fixed; left: -810px; top: 220px; background: #233540; border: 5px solid #ea5206;}
+.event img{margin: -100px 0 -15px;}
+.event p{color: #fff; font-size: 2em; font-weight: 500; text-align: center; margin-top: 50px;}
+.event span{position: absolute; right: 20px; bottom: 235px; display: block; color: #fff; font-size: 1.2em;}
+.event .event_btn{display: block; width: 100px; height: 100px; background: url(../images/content1/seat.png) no-repeat; color: #fff;
+    font-size: .9em; text-align: center; position: absolute; left: 805px; top: 400px;}
+
+/* 모달팝업 처리 */
+.box{width: 100%; height: 100%; position: absolute; left: 0; top: 100px; background: rgba(0,0,0,.7);
+z-index: 9999; display: none;}
+.content{height: 10000px; background: pink;}
+.pop{width: 800px; height: 600px; border: 2px solid #999; background: skyblue; position: absolute;
+left: 50%; margin-left: -400px; top: 50%; margin-top: -300px; z-index: 20; display: none;}

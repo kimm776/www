@@ -1,0 +1,23 @@
+
+/* 컨텐츠1 */
+.content_area{margin: 65px 5% 100px;}
+
+.content_area h3{color: #333; text-align: left; font-size: 21px; margin: 40px 0 25px; position: relative; padding-left: 13px;}
+.content_area h3::before{content: ''; display: block; width: 4px; height: 22px; background: #ea5206; position: absolute; top: 4px; left: 0;}
+.content_area p{font-size: 17px; margin-bottom: 50px; text-align: justify;}
+
+.content_area .title {overflow: hidden; background: #f1f1f1;}
+.content_area .tab_menu{margin: 40px 5% 0;}
+.content_area .title li{float: left; background: #fff; border: 1px solid #ccc; text-align: center;  box-shadow: 1px 1px 7px 1px #ebebeb;
+    width: 31.33%; box-sizing: border-box; margin: 0 0 40px 2%;}
+.content_area .title li:first-child{margin-left: 0;} 
+.content_area .title li a{display: block; width: 100%; padding: 8px 0; font-size: 17px;}
+.content_area .title .current{border: 1px solid #ea5206;}
+.content_area .title .current a{color: #ea5206;}
+
+.content_area .text{margin-bottom: 100px; background: #f1f1f1; padding: 0 5% 45px;}
+.content_area .text dl{font-size: 14px; font-weight: 300; background: #fff; overflow-y: auto; height: 400px; text-align: justify; width: 100%;
+}
+.content_area .text dt{font-weight: 500; font-size: 1.2em; line-height: 1.8em; width: 90%; margin: 30px 5% 30px;}
+.content_area .text dd{width: 90%; margin: 0 5% 30px;}
+.content_area .text span{margin-bottom: 20px; display: block; font-weight: 400;}

@@ -1,0 +1,34 @@
+body{background: url(../images/join_bg.jpg) center center no-repeat; background-attachment: fixed; }
+
+#wrap{width: 700px; margin: 120px auto; padding: 60px 120px 80px; background: #f1f1f1; border-radius: 20px; border: 1px solid #ccc;
+    text-align: left}
+#wrap h1{display: block; width: 324px; height: 79px; background: url(../images/logo.png); text-indent: -999px; overflow: hidden; margin: 0 auto;}
+#wrap h1 a{ width: 324px; height: 79px; display: block;}
+.text{margin: 45px 0 20px; font-size: 17px;}
+#wrap h2{font-size: 30px; margin: 20px 0 30px;}
+
+#col2{border-top: 2px solid #333; border-bottom: 2px solid #333; background: #fff; padding: 30px 40px;}
+.top{font-size: 22px; margin-bottom: 15px;}
+.top span{margin: 0 70px 0 10px;}
+.top input{width: 443px; font-size: 17px; outline: none; border: 0; padding: 18px 20px; margin: 12px 0; background: #f1f1f1;}
+
+.mid{font-size: 22px; margin-bottom: 15px;}
+.mid span{margin: 0 50px 0 10px;}
+.mid input{width: 443px; font-size: 17px; outline: none; border: 0; padding: 18px 20px;  background: #f1f1f1;}
+
+.bot{font-size: 22px;}
+.bot span{margin: 0 50px 0 10px;}
+.bot select{border: 0; background: #f1f1f1; font-size: 17px; outline: none; padding: 18px 15px; margin: 12px 0;}
+.bot input{border: 0; background: #f1f1f1; font-size: 17px; outline: none; padding: 18px 15px; width: 138px;}
+
+.btn{text-align: center; margin-top: 45px;}
+.find{width: 46%; border: 0; background: #3e4c97; color: #fff; font-size: 18px; padding: 15px 0; cursor: pointer;}
+.btn a{width: 46%; margin-left: 4%; background: #333; color: #fff; font-size: 18px; padding: 15px 0; display: inline-block; font-weight: 300;}
+
+#loadtext{text-align: center; display: block; margin: 30px 0 20px; line-height: 1.8; }
+#loadtext strong{font-size: 20px; font-weight: 500; color: #3e4c97;}
+#loadtext span{font-weight: 500;}
+#loadtext .new_pw{color: #ea5206;}
+
+.go{text-align: center; margin-top: 40px; font-size: 17px;}
+.go a{margin-left: 20px; font-weight: 500; color: #3e4c97;}

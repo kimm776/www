@@ -1,0 +1,83 @@
+<!-- 스킵 네비게이션 -->
+<div id="skipNav">
+    <a href="#content">본문바로가기</a>
+    <a href="#gnb">네비게이션바로가기</a>
+</div>
+<div id="wrap">
+    <header id="headerArea">
+        <div class="header_top">
+            <h1><a href="./index.html">부평구문화재단</a></h1>
+            <a href="#" class="menu_ham">
+                <span>메뉴</span>
+            </a>
+        </div>
+
+        <nav id="gnb">
+            <h2 class="hidden">글로벌네비게이션영역</h2>
+            <ul class="log">
+
+                <?
+                    if(!$userid) //세션변수가 등록되지 않았다면
+                    {
+                ?>
+
+                    <li class="login"><a href="./login/login_form.php">로그인</a></li>
+                    <li class="join"><a href="./member/member_check.html">회원가입</a></li>
+
+                <?
+                    }
+                    else   //세변변수가 등록되어 있다면
+                    {
+                ?>
+
+                    <li class="login"><a href="./login/logout.php">로그아웃</a></li>
+                    <li class="nick"><i class="fas fa-user"></i> <?=$usernick?> (level.<?=$userlevel?>)</li>
+
+                <? 
+                    }
+                ?>
+            </ul>
+            <ul class="mainMenu">
+                <li class="depth1"><h3><a href="#">재단소개<span><i class="fas fa-chevron-down"></i></span></a></h3>
+                    <ul>
+                        <li><a href="./sub1_1.html">부평구문화재단</a></li>
+                        <li><a href="./sub1_2.html">상주예술단체</a></li>
+                    </ul>
+                </li>
+                <li class="depth1"><h3><a href="#">이용안내<span><i class="fas fa-chevron-down"></i></span></a></h3>
+                    <ul>
+                        <li><a href="./sub2_1.html">관람예절</a></li>
+                        <li><a href="./sub2_2.html">편의시설</a></li>
+                        <li><a href="./sub2_3.html">갤러리</a></li>
+                    </ul>
+                </li>
+                <li class="depth1"><h3><a href="#">공연예매<span><i class="fas fa-chevron-down"></i></span></a></h3>
+                    <ul>
+                        <li><a href="./sub3_1.html">공연일정</a></li>
+                        <li><a href="./sub3_2.html">예매안내</a></li>
+                    </ul>
+                </li>
+                <li class="depth1"><h3><a href="#">대관안내<span><i class="fas fa-chevron-down"></i></span></a></h3>
+                    <ul>
+                        <li><a href="./sub4_1.html">대관시설</a></li>
+                        <li><a href="./sub4_2.html">대관절차</a></li>
+                        <li><a href="./sub4_3.html">대관규정</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="fl_div">
+                <ul class="fl">
+                    <li class="faq"><a href="./faq.html">FAQ</a></li>
+                    <li class="location"><a href="./location.html">LOACTION</a></li>
+                </ul>
+            </div>
+            <ul class="sns">
+                <li><a href="https://www.youtube.com/c/BupyeongSound/featured" title="새 창으로 이동" target="blank"><span class="hidden">유튜브</span></a></li>
+                <li><a href="https://www.instagram.com/cultural_city_bp/?hl=ko" title="새 창으로 이동" target="blank"><span class="hidden">인스타그램</span></a></li>
+                <li><a href="https://blog.naver.com/bupyeong_art" title="새 창으로 이동" target="blank"><span class="hidden">블로그</span></a></li>
+                <li><a href="https://www.facebook.com/culturalCityBP" title="새 창으로 이동" target="blank"><span class="hidden">페이스북</span></a></li>
+            </ul>
+        </nav>
+        
+    </header>

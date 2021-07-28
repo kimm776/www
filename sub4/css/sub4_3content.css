@@ -1,0 +1,48 @@
+/* 재단소개 콘텐츠 내용 영역 */
+.title_area{border-bottom: none}
+#content .title_area h2{padding-bottom: 80px; }
+/* content - content_area */
+
+/* con 내용 */
+.slide{background: #f8f8f8; border-bottom: 2px solid #ccc; width: 100%;}
+.slide_inner{ width: 1200px; margin: 0 auto;}
+
+#content .slideMenu{overflow: hidden;}
+#content .slideMenu li{float: left; width: 50%; text-align: center; position: relative;}
+#content .slideMenu li a{display: block; padding: 10px 0 15px; color: rgb(189, 189, 189);  font-weight: 500; font-size: 1.2em; transition: all .3s ease-out;}
+#content .slideMenu li:hover a{color: #ea5206; }
+#content .slideMenu li a::after{content: ''; width: 16px; height: 16px; position: absolute; bottom: -10px; left: 50%; margin-left: -7px; 
+    background: #ccc;  transform: rotate(45deg);    transition: all .3s ease-out;}
+#content .slideMenu li:hover a::after{background: #ea5206;}
+#content .slideMenu .link1::after{background: #ea5206;}
+#content .slideMenu .link1:hover a::after{border-bottom: 17px solid #ea5206;}
+
+.con_box{width: 1200px; margin: 150px auto; overflow: hidden;}
+
+.con_box h3{font-size: 1.8em; font-weight: 500; margin-bottom: 70px; position: relative; padding-left: 20px;}
+.con_box h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+
+.con_box .con1 .mail_box{border-top: 2px solid #666; border-bottom: 2px solid #666; padding: 35px 30px}
+.con_box .mail_box label{font-size: 20px; font-weight: 500; padding: 0 150px 0 10px; position: relative;}
+.con_box .mail_box label::before{content: '*'; display: block; color: #e60012; font-size: 22px; font-weight: 600px; position: absolute; top: 3px; left: -8px;}
+.con_box .mail_box input{width: 150px; font-size: 20px; padding: 10px 15px; width: 870px; border: 1px solid #ccc; font-family: 'Noto Sans KR', sans-serif;}
+.con_box .mail_box .row{ position: relative; margin-bottom: 30px;}
+.con_box .mail_box .help-block{position: absolute; top: 12px; right: 50px; color: #e60012; font-size: 16px;}
+.con_box .mail_box textarea{width: 871px;  border: 1px solid #ccc; font-size: 20px; padding: 10px 15px; font-family: 'Noto Sans KR', sans-serif;}
+.con_box .mail_box .textarea{top: -195px; padding-right: 68px;}
+.con_box .mail_box .textarea_div{margin-bottom: 0;}
+.con_box .con1 p{color: #666; margin-bottom: 15px;}
+.con_box .send_div{width: 300px; margin: 70px auto 0;}
+.con_box .send_div:hover{opacity: .8;}
+.send button{width: 100%; font-family: 'Noto Sans KR', sans-serif; border: none; font-size: 19px; padding: 16px 0; border-radius: 10px; color: #fff; background: #3e4c97; cursor: pointer;}
+#success{margin-top: 10px;}
+#success strong{font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size: 20px; padding-left: 12px;}
+
+
+.con_box .con2 h3{margin: 150px 0 70px 0;}
+
+ /* sticky menu */
+ .navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0; background: #3e4c97; border-bottom: none; font-size: 1.1em;}  
+ .navOn a:after{display: none;}
+ .navOn .spy{ background: #fff; }  
+ #content .slideMenu li .spy{color: #ea5206; }

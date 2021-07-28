@@ -1,0 +1,46 @@
+
+/* con 내용 */
+.span{font-size: 30px; font-weight: 500; padding: 0 0 30px 18px; display: block; position: relative;}
+.span::before{content: ''; background: #ea5206; width: 6px; height: 33px; position: absolute; top: 8px; left: 0;}
+.content_area form{border-top: 2px solid #333; }
+
+.col1{font-size: 20px; width: 200px; color: #444; padding-left: 20px;}
+
+#write_row1{overflow: hidden;  border-bottom: 1px solid #ccc; background: #f5f5f5;}
+#write_row1 div{float: left; }
+#write_row1 .col1{ padding: 35px 0 0 20px;}
+#write_row1 .col2{font-size: 22px;  padding: 30px 0;}
+#write_row1 .col3{ padding: 35px 0 0 50px;}
+
+
+#write_row2{overflow: hidden;  border-bottom: 1px solid #ccc; padding: 25px 0;}
+#write_row2 div{float: left;}
+#write_row2 .col1{font-size: 20px; padding-top: 7px;}
+#write_row2 .col2 input{width: 940px; outline: none; border: 1px solid #ccc; font-size: 19px; padding: 10px 15px; font-size: 21px;
+    font-family: 'Noto Sans KR', sans-serif;}
+
+#write_row3{overflow: hidden; margin-bottom: 30px; padding: 35px 0; border-bottom: 1px solid #ccc;}
+#write_row3 div{float: left;}
+#write_row3 textarea{border: 1px solid #ccc; width: 940px; outline: none;  padding: 10px 15px 0; font-size: 18px;
+    height: 300px; font-family: 'Noto Sans KR', sans-serif; text-align: justify;}
+    
+#write_row4{overflow: hidden; margin-bottom: 18px;}
+#write_row4 div{float: left;}
+.file1{margin: 0 0 30px 220px;}
+
+#write_row5{overflow: hidden; clear: both; margin-bottom: 18px;}
+#write_row5 div{float: left;}
+.file2{margin: 0 0 30px 220px}
+
+#write_row6{overflow: hidden; margin-bottom: 30px; clear: both; width: 1200px;}
+#write_row6 div{float: left;}
+.file3{margin: -10px 0 40px 220px}
+
+.line{border-top: 1px solid #ccc; padding-top: 30px;}
+
+#write_button{font-size: 18px; padding: 10px 0; text-align: center; clear: both; width: 414px; margin: 0 auto;  }
+#write_button .ok_btn{color: #fff; padding: 13.6px 0; background: #3e4c97; width: 200px; display: inline-block; margin-left: 5px; border: none;
+    font-weight: 600; outline: none; font-size: 20px; cursor: pointer;}
+#write_button .ok_btn:hover{opacity: .9;}
+#write_button .list_btn{color: #fff; padding: 13px 0; background: #444; width: 200px; display: inline-block; font-size: 20px;}
+#write_button .list_btn:hover{opacity: .9;}

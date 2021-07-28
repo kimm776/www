@@ -1,0 +1,48 @@
+/* content */
+/* slide_menu */
+.slide{background: #f8f8f8; border-bottom: 2px solid #ccc; width: 100%;}
+.slide_inner{ width: 1200px; margin: 0 auto;}
+
+#content .slideMenu{overflow: hidden;}
+#content .slideMenu li{float: left; width: 50%; text-align: center; position: relative;}
+#content .slideMenu li a{display: block; padding: 10px 0 15px; color: rgb(189, 189, 189);  font-weight: 500; font-size: 1.2em; transition: all .3s ease-out;}
+#content .slideMenu li:hover a{color: #ea5206; }
+#content .slideMenu li a::after{content: ''; width: 16px; height: 16px; position: absolute; bottom: -10px; left: 50%; margin-left: -7px; 
+    background: #ccc;  transform: rotate(45deg);    transition: all .3s ease-out;}
+#content .slideMenu li:hover a::after{background: #ea5206;}
+#content .slideMenu .link1::after{background: #ea5206;}
+#content .slideMenu .link1:hover a::after{border-bottom: 17px solid #ea5206;}
+
+/* con1 내용 */
+.con{width: 1200px; margin: 0 auto;}
+
+.con h3{font-size: 1.8em; font-weight: 500; margin: 150px 0 100px; position: relative; padding-left: 20px;}
+.con h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+
+#content .con1{overflow: hidden; margin-bottom: 150px;}
+#content .con1 img{float: left; margin-left: 50px;}
+#content .con1 .con1_innerbox{width: 630px; float: right; margin-right: 50px;  padding-top: 20px;}
+#content .con1 .con1_innerbox p{text-align: justify; line-height: 1.8em; font-weight: 300;}
+
+
+/* con2 내용*/
+#content .con2 h4{font-size: 1.3em; padding-left: 15px; position: relative; margin-bottom: 40px; font-weight: 400;}
+
+#content .con2 ul{margin-bottom: 90px;}
+
+#content .con2 .sponsor{overflow: hidden; padding-top: 15px;}
+#content .con2 .sponsor li{float: left; background: #f7f7f7; border: 1px solid #ccc; width: 170px; height: 80px; margin-left: 60px; padding: 30px 30px; position: relative; color: #555;}
+#content .con2 .sponsor .fas{position: absolute; right: 30px; bottom: 30px; font-size: 2.1em; color: #666;}
+#content .con2 .sponsor .first{margin-left: 46px;}
+#content .con2 .sponsor span{font-size: 1.2em;}
+
+#content .con2 .ul{color: #666; list-style: disc; margin-left: 46px; line-height: 2em; font-weight: 300;}
+#content .con2 .ul span{font-weight: 400; color: #555;}
+#content .con2 .ul .last{list-style: none; color: #999;}
+
+/* sticky menu */
+.navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0; background: #3e4c97; border-bottom: none; font-size: 1.1em;}  
+
+.navOn a:after{display: none;}
+.navOn .spy{ background: #fff; }  
+#content .slideMenu li .spy{color: #ea5206; }

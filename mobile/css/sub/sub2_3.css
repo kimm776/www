@@ -1,0 +1,13 @@
+/* 컨텐츠2 */
+.content{margin: 0 5% 100px;}
+.content .pro_list{overflow: hidden;}
+.content .pro_list li{width: 48%; float: left; margin-bottom: 4%;}
+.content .pro_list li:nth-child(even){margin-left: 4%;}
+.content img{width: 100%;}
+.content p{font-size: 19px; margin: 60px 0 30px;}
+.content span{font-size: 16px; color: #fff; display: block; background: #ea5206; border-radius: 20px; width: 70px; text-align: center; font-weight: 300;
+    margin-bottom: 17px; padding: 2px 5px;}
+
+.content .tabs{margin-top: 60px;}
+.content .tabs li{width: 40%; margin-left: 30%;}
+.content .tabs a{font-size: 17px; padding: 10px 0; background: #dfdfdf; width: 100%; display: block; text-align: center; border: 1px solid #bbb;}

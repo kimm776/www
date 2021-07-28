@@ -1,0 +1,134 @@
+<?
+	session_start();
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>부평구문화재단-재단소개</title>
+
+<!-- 로딩 이미지 -->
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub/sub1_common.css">
+<link rel="stylesheet" href="css/sub/sub1_1.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+<script src="./js/prefixfree.min.js"></script>
+<script>
+  //주소창 위로 올리기
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <? include "head.html"  ?>
+    <!-- 비주얼 영역 -->
+
+        <div id="inner_wrap">
+            <div class="visual">
+                <div class="title_box"></div>
+                <div class="title">
+                    <h3>BUPYEONG ARTCENTER</h3>
+                    <span>재단소개</span>
+                </div>
+                <ul class="tabs">
+                    <li class="on"><a href="./sub1_1.html">부평구문화재단</a></li>
+                    <li><a href="./sub1_2.html">상주예술단체</a></li>
+                </ul>
+            </div>
+
+
+            <div class="title_area">
+                <div class="title_inner">
+                    <div class="line_map">
+                        <span class="hidden">home</span><i class="fas fa-home"></i> &gt; 재단소개 &gt; <strong>부평구문화재단</strong>
+                    </div>
+                    <h2>부평구문화재단</h2>
+                </div>
+            </div>
+
+            <div class="content1">
+                <p class="cont1_title">“<span>구민의 일상 가까이 문화예술이 공존</span>하는<br>
+                    문화도시 부평을 꿈꿉니다.”</p>
+                <img src="./images/sub/sub1/bupyeongx2_01.jpg" alt="부평구문화재단 대표이사 사진">
+                <span class="intro">행복한 문화예술이 가득한<br> 부평구문화재단에 오신 것을 환영합니다.</span>
+                <p class="con1_text">
+                    안녕하세요, 행복한 문화예술이 가득한 부평구문화재단 홈페이지에 오신 것을 환영합니다. 부평구문화재단은 구민의 일상 가까이 문화예술이 공존하는 문화도시 부평을 꿈꿉니다.
+                    <br><br>
+                    문화도시 부평을 열어가는 중심역할을 지속적으로 확대하여 우리 모두 행복할 수 있는 문화도시 부평을 만들어가겠습니다.
+                    <br><br>
+                    <span>대표이사 <strong>이영훈</strong></span>
+                </p>
+            </div>
+            <div class="content1_2">
+                <span class="ci">BUPYEONG CI소개</span>
+                <div class="logo">
+                    <img src="./images/sub/sub1/logox2.png" alt="로고이미지">
+                    <dl class="type">
+                        <dt>심볼마크 & 로고타입</dt>
+                        <dd>우리나라 전통의 조각보 이미지와 놀이문화의 조각퍼즐을 모티브로 'ㅂ'을 형상화하여 제작되었습니다.</dd>
+                    </dl>
+                    <ul class="color">
+                        <li class="color1">
+                            <dl>
+                                <dt>B_Purple</dt>
+                                <dd>Pantone 2592c</dd>
+                            </dl>
+                        </li>
+                        <li class="color2">
+                            <dl>
+                                <dt>B_Orange</dt>
+                                <dd>Pantone 137c</dd>
+                            </dl>
+                        </li>
+                        <li class="color3">
+                            <dl>
+                                <dt>B_Dark Cyan</dt>
+                                <dd>Pantone 3272c</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <dl class="type type2">
+                        <dt>전용색상</dt>
+                        <dd>부평구문화재단의 다양한 시그니쳐 색상을 확인해보세요.</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 푸터 영역 -->
+        <? include "foot.html"  ?>
+
+
+
+
+<!-- script연결 -->
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/nav_topbtn.js"></script>
+</body>
+</html>

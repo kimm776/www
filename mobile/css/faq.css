@@ -1,0 +1,21 @@
+#inner_wrap {width: 100%}
+#inner_wrap h2{font-size: 23px; font-weight: 500; color: #222; margin: 120px auto 50px; width: 140px;}
+
+.tabs{margin: 0 5%;}
+.tab_menu{overflow: hidden;}
+.tab_menu li{float: left; border: 1px solid #ccc; border-radius: 30px; width: 25.33%; margin-left: 6%;}
+.tab_menu li a{display: block; border-radius: 30px; font-size: 17px; font-weight: 500; padding: 7px 0; text-align: center;}
+
+
+.hgroup{width: 100%; position: relative;}  
+.hgroup a{width: 85px; display: block; font-size: 17px; position: absolute; top: 30px; right: 10px;}  
+
+.faq{width:100%; border-bottom:1px solid #ddd; margin-bottom: 100px;}  
+.faq ul{margin-top: 70px;}
+.faq .q{margin:0; border-top:1px solid #ddd; position: relative;}  
+.faq li:first-child .q{border-top: 2px solid #ea5206;}
+.faq .q strong{color: #ea5206; position: relative;}
+.faq .q .trigger{display:block; padding: 20px 30px; color:#333; text-align:left; font-size: 17px; line-height: 1.8;}  
+.faq .a{padding:30px 35px; font-size: 15px; color: #555; line-height:1.7; display: none; text-align: justify;
+    background: #f6f6f6; border-top: 1px solid #ccc; border-bottom: 1px solid #555;} 
+

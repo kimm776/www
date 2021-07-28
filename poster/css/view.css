@@ -1,0 +1,22 @@
+
+/* con 내용 */
+.content_area{border-top: 2px solid #333; }
+#view_title{background: #f7f7f7}
+#view_title1{padding: 23px 0 20px 20px ; font-size: 27px; font-weight: 500;}
+
+#view_title2{padding: 0 0 23px 20px; overflow: hidden; border-bottom: 1px solid #bbb;}
+#view_title2 div{ font-size: 20px; color: #555;}
+#view_title2 .people{float: left; font-size: 27px; border: 1px solid #ccc; border-radius: 50%; padding: 3px 10px 7px 12px; margin-right: 15px;}
+#view_title2 .nick_date{float: left;}
+#view_title2 .nick_date div{font-size: 16px;}
+#view_title2 .eye{float: right; margin: 20px 20px 0 0;}
+#view_title2 .eye i{padding-right: 8px;}
+
+#view_content{padding: 40px 20px; font-size: 18px; text-align: justify; line-height: 2em;  border-bottom: 1px solid #bbb; }
+#view_content .img_box{text-align: center;}
+
+#view_button{overflow: hidden;margin: 50px 0;}
+.btn{float: right; color: #fff; padding: 10px 0; background: #444; width: 110px; display: inline-block; margin-left: 7px; border: none;
+    outline: none; cursor: pointer; text-align: center;}
+.modify_btn{background: #3e4c97;}
+.cancel_btn{background: #999;}

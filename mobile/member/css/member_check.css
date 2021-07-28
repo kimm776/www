@@ -1,0 +1,28 @@
+body{background: #f1f1f1;}
+.sub_cont_wrap{width: 80%; margin: 120px 10%; padding: 10%; background: #fff; border-radius: 20px; box-sizing: border-box ; border: 1px solid #ccc;
+    text-align: left}
+.join .logo{display: block; width: 58px; height: 75px; background: url(../images/logo.png) no-repeat; text-indent: -999px; overflow: hidden; padding-right: 5px;
+margin: 0 auto;}
+.join .logo a{width: 58px; height: 75px; display: block;}
+
+.join h2{font-size: 18px; font-weight: 600; margin: 50px 0 20px; position: relative; padding-left: 19px;}
+.join h2::before{content: ''; background: #333; width: 7px; height: 7px; border-radius: 50%; display: block; position: absolute; top: 10px; left: 0;}
+.join h2 span{font-size: 14px; color: #ea5206; font-weight: 500;}
+.join .policy{background: #fff; padding: 3% 5%; overflow-y: scroll; height: 80px; margin: 15px 0; line-height: 1.7em;
+    border: 1px solid #ddd; font-size: 14px; color: #555;}
+.join .check{width: 100%;}
+.join .check{cursor: pointer;}
+.join .check>input{cursor: pointer;}
+.join .check>label{cursor: pointer; font-size: 15px; padding-bottom: 3px;}
+
+input[type=checkbox] + label::before {  display: inline-block;  width: 16px;  height: 16px;  background-color: transparent; 
+border: 2px solid #333; border-radius: 50%;  content:''; margin: 0px 10px -3.5px 0px ;}
+input[type=checkbox]:checked + label::before{background: #fff url(../images/check.png) center center no-repeat;border: 2px solid #ea5206;}
+input[type=checkbox]{display: none;}
+
+.button{padding-top: 40px; overflow: hidden;}
+.button button {text-align: center; display: inline-block; padding: 13px 0; font-size: 16px; font-size: 17px; margin-top: 20px; cursor: pointer;}
+.button .allcheck{border: 2px solid #c3cce2; background: #c3cce2; width: 100%; margin-top: 20px;}
+.button .check_agree{ background: #3e4c97; border: 2px solid #3e4c97; color: #fff; width: 49%; margin-right: 2%; box-sizing: border-box; float: left;}
+.button .cancel{background: #333; margin-top: 20px; border: 2px solid #333; color: #fff; width: 49%; text-align: center; box-sizing: border-box;
+    display: block; float: left; padding: 13px 0; font-size: 17px;}

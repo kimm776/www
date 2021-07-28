@@ -1,0 +1,41 @@
+
+/* 컨텐츠1 */
+.content1{margin: 65px 5% 100px;}
+.content1 .cont1_title{font-weight: 500; font-size: 19px; margin: 0 0 40px 0; line-height: 1.6;}
+.content1 .cont1_title span{color: #ea5206;}
+.content1 img{width: 100%;}
+.content1 .intro{display: block; font-size: 18px; font-weight: 500; margin: 50px 0 40px 0;}
+.content1 .con1_text{width: 100%; text-align: justify;  line-height: 2; color: #222; font-weight: 300;}
+
+.content1_2{margin: 100px 5%;}
+.ci{display: block; font-size: 23px; font-weight: 500; position: relative; padding-left: 15px; margin: 100px 0 75px 0;}
+.ci::before{content: ''; width: 7px; height: 26px; background: #ea5206; position: absolute; top: 6px; left: 0;}
+
+.logo img{width: 70%; margin: 0 15%; display: block;}
+.logo .type{margin-top: 80px;}
+.logo .type dt{font-size: 18px; font-weight: 500; position: relative; padding-left: 23px;}
+.logo .type dt::before{content: ''; display: block; width: 13px; height: 2px; background: #555; position: absolute; top: 13px; left: 0;}
+.logo .type dd{font-weight: 300; text-align: justify; margin: 20px 0 40px; color: #222; line-height: 1.7;}
+.logo .color{overflow: hidden; margin-top: 50px;}
+.logo .color li{width: 28%; height: 200px; float: left; text-align: center; margin-left: 4%;}
+.logo .color1{background: url(../../images/sub/sub1/color1.png) center 35px no-repeat;}
+.logo .color2{background: url(../../images/sub/sub1/color2.png) center 35px no-repeat;}
+.logo .color3{background: url(../../images/sub/sub1/color3.png) center 35px no-repeat;}
+.logo .color dl{padding-top: 120px;}
+.logo .color dt{font-weight: 500; font-size: 14px;}
+.logo .color dd{font-size: 13px;}
+.logo .type2{margin-top: 20px;}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .color1{ background: url("../../images/sub/sub1/color1x2.png");
+    -webkit-background-size: 79px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .color2{ background: url("../../images/sub/sub1/color2x2.png");
+    -webkit-background-size: 79px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .color3{ background: url("../../images/sub/sub1/color3x2.png");
+    -webkit-background-size: 79px;}
+}
+

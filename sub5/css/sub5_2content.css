@@ -1,0 +1,31 @@
+/* content - content_area */
+/* con 내용 */
+#content .content_area{margin: 150px auto; width: 1200px; margin: 0 auto;}
+.content_area .ul{overflow: hidden; margin: 130px 0 90px 280px;}
+.content_area .ul li{float: left; margin-left: 130px;}
+.content_area .ul li:first-child{margin-left: 0;}
+.tabs .ul li a{opacity: .4;}
+
+.contlist{overflow: hidden; position: relative; border-top: 2px solid #666;}
+.contlist ul{overflow: hidden;}
+.contlist li{float: left; margin: 100px 60px 10px 50px; border: 1px solid #e3e3e3; position: relative;  transition: all .4s ease-out;}
+.contlist dl{padding: 10px 30px 30px;}
+.contlist dt{font-size: 1.2em; font-weight: 500; margin: 20px 0 25px; }
+.contlist dd{font-size: .9em; font-weight: 300; line-height: 1.8em;}
+.contlist .ul_box2{margin-top: 100px;}
+
+.contlist li .on{display: block; width: 100%; height: 100%; background: rgba(0, 0, 0, .4); opacity: 0; position: absolute; left: 0; top: 0; transition: all .4s ease-out;}
+.contlist li .on a{background: #ea5206; color: #fff; display: block; text-align: center; width: 150px; padding: 15px 0; font-size: 1.1em; font-weight: 500;
+    margin: 235px auto 20px;}
+.contlist li .on a:last-child{margin-top: 0; background: #f1f1f1; color: #333;}
+.contlist li .on:hover{opacity: 1;}
+.contlist li:hover{box-shadow: 2px 5px 13px 5px #ccc; border: 1px solid #ccc; transform: rotateX(10deg);}
+.contlist li .on a:hover{box-shadow: 2px 2px 8px 5px #888;}
+.contlist li .on a:last-child:hover{box-shadow: 2px 2px 8px 2px #ccc;}
+.contlist li .off{display: none;}
+
+.contlist .page a{border: 1px solid #999; color: #444; font-weight: 300; display: block; width: 30px; padding: 5px 2px; text-align: center; margin: 80px 0  150px 585px;}
+
+.contlist .open{position: absolute; top: 0px; left: 0; background: royalblue; color: #fff; font-weight: 400; padding: 6px 15px 8px;}
+.contlist .ing{position: absolute; top: 0px; left: 0; background: rgb(208, 63, 169); color: #fff; font-weight: 400; padding: 6px 15px;}
+.contlist .close{background-color: #333; color: #fff; position: absolute; top: 0px; left: 0; font-weight: 400; padding: 6px 15px;}

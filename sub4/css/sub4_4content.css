@@ -1,0 +1,25 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 150px auto;}
+
+.content_area h3{font-size: 1.8em; font-weight: 500; margin-bottom: 50px; position: relative; padding-left: 20px;}
+.content_area h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+.content_area p{font-size: 1.2em; margin-bottom: 70px;}
+
+/* .content_area .box{background: #f1f1f1; padding: 60px 50px;} */
+.content_area .title {overflow: hidden; background: #f1f1f1; padding: 60px 50px;}
+.content_area .title li{float: left; background: #fff; border: 1px solid #ccc; margin-right: 43px; text-align: center;  box-shadow: 1px 1px 7px 1px #ebebeb;}
+.content_area .title li:nth-child(4), .content_area .title li:nth-child(8){margin-right: 0;}
+.content_area .title li:nth-child(5), .content_area .title li:nth-child(6), .content_area .title li:nth-child(7){margin-top: 20px;}
+.content_area .title li a{display: block; width: 200px; padding: 15px 20px;}
+.content_area .title .current{border: 1px solid #ea5206;}
+.content_area .title .current a{color: #ea5206;}
+.content_area .title li:hover a{color: #ea5206;}
+
+.content_area .text{margin-bottom: 100px; background: #f1f1f1; padding: 0 50px 70px;}
+.content_area .text dl{font-size: .9em; font-weight: 300; background: #fff; overflow-y: auto; height: 400px; text-align: justify; width: 1000px; padding: 35px 50px 45px;}
+.content_area .text dt{margin-bottom: 30px; font-weight: 500; font-size: 1.2em; line-height: 1.8em;}
+.content_area .text span{margin-bottom: 20px; display: block; font-weight: 400;}

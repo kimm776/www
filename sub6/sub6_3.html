@@ -1,0 +1,392 @@
+<?
+	session_start();
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부평구문화재단-열린광장</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <link rel="stylesheet" href="./css/sub6_3content.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <script src="common/js/prefixfree.min.js"></script>
+
+    <!--[if IE 9]>  
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    
+
+    <div class="wrap">
+        <!-- 상단 header영역 -->
+        <? include "../common/sub_head.html" ?>
+
+        <div class="visual">
+            <img src="./common/images/sub_visual.jpg" alt="main사진">
+        </div>
+
+        <div class="sub_menu">
+            <div class="sub_inner">
+                <div class="visual_text">
+                    <h3>열린광장</h3>
+                    <p>community</p>
+                </div>
+                <ul>
+                    <li><a href="../greet/list.php">공지사항</a></li>
+                    <li><a href="../concert/list.php">관람후기</a></li>
+                    <li class="current"><a href="sub6_3.html">자주묻는 질문</a></li>
+                    <li class="last"><a href="../free/list.php">고객의 소리</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <article id="content">
+            <div class="title_area">
+                <div class="title_inner">
+                    <div class="line_map">
+                        <span class="hidden">home</span><i class="fas fa-home"></i> &gt; 열린광장 &gt; <strong>자주묻는 질문</strong>
+                    </div>
+                    <h2>자주묻는 질문</h2>
+                </div>
+            </div>
+
+            <div class="content_area">
+                <div class="tabs">  
+	
+                    <div class="top_box">
+                        <ul class="tab_menu">
+                            <li><a class="tab tab1" href="#">티켓예매</a></li>
+                            <li><a class="tab tab2" href="#">공연관람</a></li>
+                            <li><a class="tab tab3" href="#">아카데미</a></li>
+                            <li><a class="tab tab3" href="#">시설안내</a></li>
+                        </ul>
+                        
+                        <div class="hgroup">  
+                            <a class="all" href="#">모두열기 ▼</a>
+                        </div>
+                    </div>
+                        
+                    <div class="faq contlist">    
+                    
+                        <ul>  
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 티켓 취소 후 환불 방법은 어떻게 되나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a">
+                                    1. 무통장 입금 : 취소신청일로 부터 일주일이내에 취소수수료를 제외한 나머지 금액을 입력하신 계좌로 환불해 드립니다.<br>
+                                    2. 카드결제 : 취소수수료 재승인 후 결제하신 티켓대금의 승인 취소가 이루어지며, 4~5일 후 카드사에서 확인이 가능합니다.
+                                </p>  
+                            </li> 
+                             
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 티켓 예매 및 취소 가능 시간은 어떻게 되나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    예매하신 티켓의 취소나 변경은 공연관람일 하루 전 오후 5시까지,
+                                    공연일이 월요일인 경우에는 토요일 오전11시까지 가능하며 공연당일은 취소나 변경이 불가능합니다.
+                                </p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 부분 취소 및 예매 변경을 할 수 있나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    인터넷 상에서는 한 예매건의 부분 취소 및 예매 변경이 불가능합니다.<br>
+                                    부분 취소 및 변경을 위해서는 해당 예매건 전체를 취소하고 다시 예매를 해야 하며,
+                                    이 경우 취소 수수료가 부가될 수 있습니다.
+                                </p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 티켓 현장수령시, 본인이 아니어도 수령할 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    예매자 본인 외의 대리인이 수령하실 경우에는 예매하신 분의 신분증을 반드시 제시하셔야 하며,
+                                    예매 확인서를 출력해 오시거나 예약 번호를 지참하시면 티켓을 수령하실 수 있습니다.   
+                                </p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 예매 후 티켓 수령은 어떻게 하나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    행사당일 공연 시작 시간 1시간~30분 전까지 행사장 안내데스크 수령해야 합니다.
+                                    예매자 신분증, 예매 확인서(인터넷 예매자의 경우 예매완료 페이지 프린트)를 꼭 지참해주세요.
+                                </p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 티켓 예매 시 수수료는 얼마인가요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    부평아트센터 홈페이지(www.bpart.kr), 현장방문, 전화예매 수수료 무료입니다.
+                                </p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 티켓 예매는 어떻게 하나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    부평아트센터 홈페이지 (www.bpart.kr), 콜센터(032-500-2000), 현장방문이 가능합니다.
+                                    부평아트센터 홈페이지에서 회원가입 후 예매하실경우 티켓가격의 10%를 할인해드립니다.<br>
+                                    1. 홈페이지 가입하기<br>
+                                    2. 로그인 후 공연 선택하기<br>
+                                    3. 예매하기 클릭 후 인터파크와 동일하게 진행(날짜, 좌석, 티켓종류 선택)<br>
+                                    4. 결제 수단(무통장 입금 또는 신용카드) 선택<br>
+                                    5. 결제 정보 입력<br>
+                                    6. 예매 내역 최종 확인<br>
+                                    7. 예매 완료
+                                </p>  
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div class="faq contlist">  
+                    
+                        <ul>  
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 공연장에 음식물 반입이 가능한가요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a">
+                                    음료를 비롯한 모든 종류의 음식물은 공연장 안으로 가져갈 수 없습니다.
+                                    공연장 분위기 및 다른 관객에게 피해가 주어지기 때문입니다. 공연장 내에서 음식물을 꺼내거나 드실 경우, 안내원의 제지가 주어집니다.
+                                </p>  
+                            </li> 
+                             
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 어린이들도 관람할 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    취학 전 어린이의 입장은 불가합니다.(단, 일부공연 제외)<br>
+                                    각 공연별 정보에 공연관람 가능연령이 기재되어 있으며 유아 및 어린이를 위한 공연의 경우에도 1인 1장의 티켓이 필요합니다.</p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 공연 중의 사진촬영, 녹음, 녹화가 가능한가요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    사전에 허락되지 않은 모든 종류의 촬영, 녹음, 녹화는 불가합니다.
+                                    공연자와 공연물의 초상권과 저작권을 보호하기 위한 조치로, 무단 촬영 시에 안내원의 제지가 주어집니다.
+                                    또한, 커튼 콜 촬영에도 제한이 주어집니다.</p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 공연이 시작된 후 다른 자리로 옮겨도 되나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    티켓이 매진되지 않아 자리가 비어있더라고 해도 좌석 이동은 불가합니다.
+                                    특히 공연이 시작된 이후에 좌석을 옮기는 것은 다른 관객에게 불편을 끼치는 일이며, 관람에 방해가 됩니다.
+                                    본인의 좌석에 앉아서 관람하시길 바랍니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 공연장 입장은 몇 시부터 가능한가요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    공연 시작 30분 전부터 입장이 가능합니다.
+                                    적어도 10분 전에는 자신의 좌석에 앉아 공연을 관람할 준비를 하는 것이 바람직합니다.
+                                    공연이 시작된 이후에는 입장이 제한될 수 있으며 늦게 도착하신 경우, 공연장 입구에서 대기하셨다가 안내원의 안내에 따라서 입장하실 수 있습니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 예매한 좌석 위치를 볼 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    예매한 좌석 번호와 홈페이지 좌석 배치도를 참고하시면 됩니다.<br>
+                                    인터넷으로 예매하실 경우, 직접 좌석을 선택할 수 있습니다.</p>  
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div class="faq contlist">  
+                    
+                        <ul>  
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 참가확정은 어떤 식으로 하나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a">
+                                    예술교육의 모든 강좌는 결제(입금) 순으로 마감됩니다.
+                                    따라서 전화접수신청이나 온라인신청을 먼저 했다고 해도, 결제가 진행되지 않으면 우선권이 부여되지 않습니다.
+                                    강좌를 꼭 듣고자 하는 회원님께 더욱 많은 기회를 제공하기 위함이오니, 이런 강좌마감 원칙을 숙지하여, 강좌 수강의 소중한 기회를 놓치는 일이 없도록 해주십시오.</p>  
+                            </li> 
+                             
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 인원미달 시 강좌 폐강은 어떻게 되나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    정원의 60% 미만 시 폐강이 되며, 접수 현황 기준으로 8일 전이 폐강 할 수 있으며, 내부 사정에 의하여 조정이 될 수 있습니다.</p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 수강수료증은 발급이 되나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    수업일수 중 2/3이상 출석하신 분에 한하여 예술교육 담당자(032-500-2027)에게 수강수료증을 신청하시면 1주일이내에 교부합니다. 방문수령만 가능합니다.</p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 수강확인서를 발급받을 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    문화사업부 예술교육 (032 500-2027)으로 연락하시어 발급을 요청하시면 됩니다.
+                                    가급적 1일 이전까지 발급을 요청해주시기 바랍니다. 방문수령만 가능합니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 현금영수증 발행을 할 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    네, 부평아트센터 문화사업부 예술교육 (032-500-2027)으로 문의 주시면 됩니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 준비물 및 강의내용은 어떻게 확인할 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    준비물 및 강의내용은 부평아트센터 예술교육 카페 http://cafe.naver.com/bpacademy 에서 확인하실 수 있습니다.
+                                    그 외 준비사항이 있을 시, 문자안내 드립니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 수강신청이 개강 이후에도 가능한가요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    정원 미달일 경우, 개강 후 3주 차까지 등록이 가능합니다. 단 수강료는 전액을 납부하셔야 합니다.</p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 강좌신청을 홈페이지에서 하려면 회원에 꼭 가입해야 하나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    네, 홈페이지 회원가입 후, 신청 가능하십니다.
+                                </p>  
+                            </li>
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 강좌신청은 언제, 어떻게 할 수 있나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" > 
+                                    강좌신청은 강의개시 약 1달전에 부평아트센터 홈페이지를 통해서 모집공고가 나간 후 신청하실 수 있습니다.
+                                    전화신청 - 부평아트센터 문화사업부 예술교육 032) 500-2027 (화-토 10-18시)
+                                    방문신청 - 부평아트센터 1층 도움누리 사무실 (화-토 10-18시)
+                                    인터넷신청 - 부평아트센터 홈페이지
+                                </p>  
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div class="faq contlist">  
+                        <ul>  
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 유아 놀이방이 있나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a">
+                                    공연 관람객의 편의를 위하여 지하1층에 놀이방 및 수유실을 운영하고 있습니다.
+                                    개관 후 운영 예정에 있습니다.</p>  
+                            </li> 
+                            
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 주차장 이용 및 정산은 어떻게 하나요?</a> 
+                                    <span></span> 
+                                </p>  
+                                <p class="a" >
+                                    주차장은 부평아트센터 정문으로 들어서기 전 우측에 있으며 무료임시운영중 입니다.
+                                </p>  
+                            </li>
+                    
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 부평아트센터에 가려면 어떻게 가야하나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    부평아트센터는 1호선 백운역 2번출구로 나와 왼쪽길(도보 3분)에 위치하고 있습니다.
+                                </p>  
+                            </li>
+
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 공연장 내에 식음료 공간은 어떻게 되어있나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    자세한 사항은 편의시설 을 참조하시기 바랍니다.
+                                </p>  
+                            </li>
+
+                            <li class="article hide">  
+                                <p class="q">  
+                                    <a class="trigger" href="#" ><strong>Q.</strong> 물품보관소는 어떻게 이용하나요?</a>  
+                                    <span></span>
+                                </p>  
+                                <p class="a" >
+                                    물품보관소는 인터파크홀 객석1층 로비에 마련되어 있습니다. 사용료는 인터파크홀 관람객에 한하여 무료이며 번호표를 교환해가는 방식으로 이용하실 수 있습니다.
+                                    단, 귀중품 및 현금은 보관되지 않습니다.
+                                    아이마켓홀 관람객은 아이마켓홀 객석1~2층 로비에 구비된 물품보관캐비닛을 이용하여 주시기 바랍니다.
+                                </p>  
+                            </li>
+                        </ul>
+                  </div>
+
+                </div>
+            </div>
+        </article>
+        <!-- 상단 footer영역 -->
+        <? include "../common/sub_foot.html" ?>
+
+    </div>
+
+
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/fullnav.js"></script>
+    <script src="./js/sub6_3.js"></script>
+
+</body>
+</html>

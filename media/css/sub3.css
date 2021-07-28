@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* 와이드 pc  */
+.imgBox h2{position: absolute; top: 50%; left: 50%; color: #fff; font-family:  'Fugaz One', cursive; font-size: 97px; margin: -74px 0 0 -214px;  letter-spacing: 4px;
+	animation: text-ani 1s;}
+@keyframes text-ani {
+	0% { transform:translateY(-30px); opacity: 0;}
+	100% { transform:translateY(0); opacity: 1;}
+}
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#imgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100}
+
+.down{display: block; font-size: 22px; position: absolute; left:50%; margin-left: -84px; bottom: 13%; animation:ani 1s infinite alternate;}
+.down::after{content: ''; display: block; background: url(../images/lol.png) no-repeat; width: 55px; height: 57px; margin: 15px auto 0;}
+@keyframes ani {
+	0% { transform:scale(1); color: #fff;}
+	100% { transform:scale(1.1); color: #fff; }
+}
+
+#content{width: 100%; background: rgba(0, 0, 0, .8); color: #fff;}
+.con1{ padding: 0 8% 150px;}
+.con1 h3{text-align: center; padding: 150px 0 100px; text-transform: uppercase; font-size: 46px; font-family: 'Balthazar', serif; font-weight: lighter; letter-spacing: 3px;}
+.con1 .inner_box1 h4{font-size: 30px; padding: 10px 0; margin-bottom: 110px; text-align: center; text-transform: uppercase; background: #04deff; color: #222; font-family: 'Roboto', sans-serif;
+font-weight: 500;}
+.con1 .inner_box2 h4{font-size: 30px; padding: 10px 0; margin-bottom: 110px; text-align: center; text-transform: uppercase; background: #dfc876; color: #222; font-family: 'Roboto', sans-serif;
+	font-weight: 500;}
+
+.inner_box1{border-bottom: 1px solid #666;}
+
+/* tra1 */
+.tra1{overflow: hidden; width: 60%; margin: 0 auto;}
+.tra1 .trailer_img{width: 100%; position: relative; overflow: hidden;}
+.tra1 .trailer_img a {display: block;}
+.tra1 .trailer_img .popup img{width: 100%; transform: scale(1.1); transition: all .3s;}
+.tra1 .trailer_img .popup:hover img{transform: scale(1);}
+.tra1 .trailer_img span{display: block; width: 120px; height: 120px; background: rgba(255,255,255,.4); border-radius: 50%; position: absolute; top: 50%;
+	left: 50%; margin: -60px 0 0 -60px; transition: 1s}
+.tra1 .trailer_img a:hover span{background: rgba(0,0,0,.4); transform: rotate(360deg)}
+.tra1 .trailer_img span::after{ display: block; content: ''; position: absolute; width: 0; height: 0; border-top: 30px solid transparent; border-left: 48px solid #04deff; 
+	border-bottom: 30px solid transparent; top: 29px; left: 42px;transition: .5s; opacity: .7;}
+.tra1 .trailer_img a:hover span::after{border-left: 48px solid #0bc6e3; opacity: 1;}
+
+.tra1 dl{color: #eee; opacity: .9; text-align: justify; margin-bottom: 100px;}
+.tra1 dt{font-size: 26px; padding: 30px 0; font-weight: 500;}
+.tra1 dt span{font-size: 18px; color: #04deff; font-weight: 500; letter-spacing: 1px; margin-right: 5px; font-family: 'Roboto', sans-serif;}
+.tra1 dd{line-height: 2em; font-weight: 300;}
+
+/* tra2 */
+.con1 ul{overflow: hidden;}
+.con1 ul li{float: left; width: 30.33%; margin-right: 4%;}
+.con1 ul li:last-child{margin-right: 0;}
+.tra2{overflow: hidden; width: 100%; margin: 0 auto;}
+.tra2 .trailer_img{width: 100%; position: relative; overflow: hidden;}
+.tra2 .trailer_img a {display: block;}
+.tra2 .trailer_img .popup img{width: 100%; transform: scale(1.1); transition: all .3s;}
+.tra2 .trailer_img .popup:hover img{transform: scale(1);}
+.tra2 .trailer_img span{display: block; width: 94px; height: 94px; background: rgba(255,255,255,.4); border-radius: 50%; position: absolute; top: 50%;
+	left: 50%; margin: -47px 0 0 -47px; transition: 1s}
+.tra2 .trailer_img a:hover span{background: rgba(0,0,0,.4); transform: rotate(360deg)}
+.tra2 .trailer_img span::after{ display: block; content: ''; position: absolute; width: 0; height: 0; border-top: 24px solid transparent; border-left: 39px solid #0bc6e3; 
+	border-bottom: 24px solid transparent; top: 24px; left: 33px;transition: .5s; opacity: .7;}
+.tra2 .trailer_img a:hover span::after{border-left: 39px solid #0bc6e3; opacity: 1;}
+
+.tra2 .txt{color: #eee; opacity: .9; text-align: left; margin-bottom: 100px;}
+.tra2 p{font-size: 26px; padding: 30px 0; }
+.tra2 p span{font-size: 18px; color: #0bc6e3; font-weight: 500; letter-spacing: 1px; margin-right: 5px; font-family: 'Roboto', sans-serif;}
+
+
+/* tra3 */
+.inner_box2{margin-top: 130px;}
+
+.tra3 .trailer_img span::after{border-left: 48px solid #f79311;}
+.tra3 .trailer_img a:hover span::after{border-left: 48px solid #dfc876;}
+.tra3 dt span{color: #dfc876;}
+
+/* tra4 */
+.tra4 .trailer_img span::after{border-left: 39px solid #f79311;}
+.tra4 .trailer_img a:hover span::after{border-left: 39px solid #dfc876;}
+.tra4 p span{color: #dfc876;}
+
+
+/* 일반 pc */
+@media screen and (max-width: 1280px) {
+	.tra1{ width: 70%;}
+
+	.con1 h3{font-size: 40px;  padding-top: 130px;}
+
+	.tra2 p{font-size: 24px;}
+	.tra2 p span{font-size: 16px;}
+
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+
+	.con1 h3{font-size: 37px; padding-bottom: 90px;}
+	.con1 .inner_box1 h4{font-size: 28px; padding: 8px 0; margin-bottom: 90px;}
+	.con1 .inner_box2 h4{font-size: 28px; padding: 8px 0; margin-bottom: 90px;}
+
+	.tra1{ width: 80%;}
+
+	.tra1 dt{font-size: 26px;}
+	.tra1 dt span{font-size: 17px;}
+	.tra2 p{font-size: 20px;}
+	.tra2 p span{font-size: 14px;}
+	
+	.tra2 .txt{margin-bottom: 50px;}
+	.tra4 .txt{margin-bottom: 0;}
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width: 768px) {
+	.imgBox h2{font-size: 82px; margin-left: -147px;}
+
+	.con1 h3{font-size: 35px; padding-bottom: 80px;}
+	.con1 .inner_box1 h4{font-size: 25px;}
+	.con1 .inner_box2 h4{font-size: 25px;}
+	
+
+	.tra1{ width: 100%;}
+
+	.tra1 dt{font-size: 23px;}
+	.tra1 dt span{font-size: 17px;}
+	.tra1 dd{font-size: 17px;}
+
+	.con1 ul li{float: left; width: 47%; margin-right: 6%;}
+	.con1 ul li:last-child{display: none;}
+	.con1 ul li:nth-child(2){margin-right: 0;}
+	.tra2 p{font-size: 18px;}
+	.tra2 p span{font-size: 14px;}
+	
+	.tra2 .txt{margin-bottom: 60px;}
+	.tra4 .txt{margin-bottom: 0;}
+
+	.inner_box2{margin-top: 100px;}
+}
+
+/* 모바일 */
+@media screen and (max-width: 640px) {
+
+	.con1 h3{font-size: 33px;}
+}
+
+/* 소형 모바일 */
+@media screen and (max-width: 480px) {
+
+}

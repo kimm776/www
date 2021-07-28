@@ -1,0 +1,99 @@
+<?
+	session_start();
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name = "format-detection" content = "telephone=no">
+
+<title>부평구문화재단-공연예매</title>
+
+<!-- 로딩 이미지 -->
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub/sub3_common.css">
+<link rel="stylesheet" href="css/sub/sub3_1.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+<script src="./js/prefixfree.min.js"></script>
+<script>
+  //주소창 위로 올리기
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <? include "head.html"  ?>
+    <!-- 비주얼 영역 -->
+
+        <div id="inner_wrap">
+            <div class="visual">
+                <div class="title_box"></div>
+                <div class="title">
+                    <h3>PERFORMANCE RESERVATION</h3>
+                    <span>공연예매</span>
+                </div>
+                <ul class="tabs">
+                    <li class="on"><a href="./sub3_1.html">공연일정</a></li>
+                    <li><a href="./sub3_2.html">예매안내</a></li>
+                </ul>
+            </div>
+
+            <div class="title_area">
+                <div class="title_inner">
+                    <div class="line_map">
+                        <span class="hidden">home</span><i class="fas fa-home"></i> &gt; 공연예매 &gt; <strong>공연일정</strong>
+                    </div>
+                    <h2>공연일정</h2>
+                </div>
+            </div>
+
+            <div class="tabs"> 
+                <ul class="ul">
+                    <li><a class="tab tab1" id="t1" href="javascript:void(0);"><img src="./images/sub/sub3/sun.png" alt=""><h3 class="hidden">해누리극장</h3></a></li>
+                    <li><a class="tab tab2" id="t2" href="javascript:void(0);"><img src="./images/sub/sub3/moon.png" alt=""><h3 class="hidden">달누리극장</h3></a></li>
+                </ul> 
+                <div class="contlist" id="contacts1">
+                    <!-- json입력 공간 -->
+                </div>                        
+            </div> 
+
+        </div>
+
+
+        <!-- 푸터 영역 -->
+        <? include "foot.html"  ?>
+
+
+
+
+<!-- script연결 -->
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/nav_topbtn.js"></script>
+<script src="js/sub/sub3_1.js"></script> <!-- tab slide JS -->
+<script src="js/sub/sub3_1json.js"></script>
+</body>
+</html>

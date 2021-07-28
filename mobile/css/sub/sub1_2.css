@@ -1,0 +1,21 @@
+/* 컨텐츠2 */
+.content2{margin: 100px 5%;}
+.content2 img{width: 100%;}
+.content2 .name{display: block; font-size: 21px; font-weight: 500; position: relative; padding-left: 13px; margin-bottom: 40px;}
+.content2 .name::before{content: ''; width: 6px; height: 24px; background: #ea5206; position: absolute; top: 4px; left: 0;}
+.content2 p{font-size: 19px; font-weight: 500; margin: 40px 0 10px; line-height: 1.6;}
+.content2 p span{color: #3e4c97;}
+.content2 dl{margin-bottom: 80px;}
+.content2 dt{font-size: 16px; font-weight: 500; }
+.content2 dt i{color: #ea5206; padding-right: 9px; margin: 40px 0 20px; font-size: 14px;}
+.content2 dd{font-weight: 300; text-align: justify; margin-top: 7px; color: #222; line-height: 1.9; font-size: 15px;}
+
+.swiper-container{margin-top: -25px;}
+.dan{width: 90%;}
+
+.slide_tabs{overflow: hidden; margin-top: 60px;}
+.slide_tabs a{display: block; width: 33.33%; float: left; text-align: center; font-size: 18px; padding: 15px 0 20px 0; color: #444;
+border-bottom: 1px solid #ccc;}
+
+.active{ color: #333; font-weight: bold; position: relative;}
+.active::before{content: ''; display: block; width: 16px; height: 16px; background: #ea5206; position: absolute; bottom: -10px; left: 50%; margin-left: -8px; transform: rotate(45deg);}

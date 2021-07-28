@@ -1,0 +1,330 @@
+<?
+	session_start();
+	@extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부평구문화재단</title>
+
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="./maincss/jquery.flipster.min.css">
+    <link rel="stylesheet" href="./maincss/animate.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+    <script src="./mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="./mainjs/jquery.min.js"></script>  <!-- 포스터 js -->
+    <script src="./mainjs/jquery.flipster.min.js"></script> <!-- 포스터 js -->
+
+
+    <!--[if IE 9]>  
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    
+    
+
+    <div class="wrap">
+        <!-- 상단 header영역 -->
+        <? include "./common/main_head.html" ?>
+
+        <div class="visual">
+
+            <div class="gallery">
+                <ul>
+                        <li class="link1"><img src="images/main1.jpg" alt=''><span class="black"></span>
+                            <p><span>Bupyeong Cultural Foundation</span><br>소통을 통해 터를 가꾸는<br>부평구문화재단</p>
+                        </li>
+                        <li class="link2"><img src="images/main2.jpg" alt=''><span class="black"></span>
+                            <p><span>Bupyeong Cultural Foundation</span><br>문화예술이 함께하는<br>행복한 부평구</p>
+                        </li>
+                        <li class="link3"><img src="images/main3.jpg" alt=''><span class="black"></span>
+                            <p><span>Bupyeong Cultural Foundation</span><br>일상 속에 공연이 있는<br>문화도시 부평</p>
+                        </li>
+                </ul>
+            </div>
+        
+            <div class="dock">
+                <span class="mbutton  btn1" ></span>
+                <span class="mbutton  btn2" ></span>
+                <span class="mbutton  btn3" ></span>
+                <span class="ps"></span>
+            </div>
+            
+        </div>
+        
+
+        <article id="content">
+
+            <h2 class="hidden">본문콘텐츠영역</h2>
+
+            <section class="company">
+                <h3 class="hidden">company introduction</h3>
+                <div class="company_inner">
+                    <p class="com_slogan wp1 delay-09s">Life where everyday becomes a culture</p>
+                    <p class="com_text wp2 delay-09s">문화는 ‘소통’을 통해 발전합니다. <br>
+                        서로의 다름을 이해하고 공감을 나누는 소통은 더욱 풍성한 문화를 피워낼 것입니다.
+                        부평구문화재단은 지역의 문화예술을 지속 발전할 수 있도록 소통을 통해 터를 가꾸는
+                        문화 재단의 역할을 다할 것이며, 삶의 풍요를 위해 노력하겠습니다.</p>
+                    <img src="./images/con01_bg.png" alt="배경사진" class="wp3 delay-101s">
+                    <div class="com_more wp1 delay-09s">
+                        <a href="./sub1/sub1_1.html">view more<i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="concert">
+                <div id="demo-default" class="demo concert_inner">
+
+                    <div id="coverflow" class="con_title wp4 delay-1s">
+                        <div class="widthbg">
+                            <h3>upcoming concert</h3>
+                            <p class="con_text">부평구문화재단의 다양한 전시와 공연이 여러분을 기다리고 있습니다</p>
+                            
+                        </div>
+                        <ul class="flip-items">
+                            <li data-flip-title="Red">
+                                <figure class="con_fig">
+                                    <img src="./images/concert1.jpg" alt="인형극 괴물 신드롬">
+                                    <figcaption>인형극 &lsaquo;괴물 신드롬&rsaquo;</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+                                <figure class="con_fig">
+                                    <img src="./images/concert2.jpg" alt="아동 뮤지컬 알사탕">
+                                    <figcaption>아동 뮤지컬 &lsaquo;알사탕&rsaquo;</figcaption>
+                                </figure>
+                             </li>
+                            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                                <figure>
+                                    <img class="center_img" src="./images/concert3.jpg" alt="장은주 피아노 독주회">
+                                    <figcaption>장은주 &lsaquo;피아노 독주회&rsaquo;</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+                                <figure class="con_fig">
+                                    <img src="./images/concert4.jpg" alt="브런치 콘서트">
+                                    <figcaption>브런치 콘서트</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+                                <figure class="con_fig">
+                                    <img src="./images/concert5.jpg" alt="풍경의 각도">
+                                    <figcaption>풍경의 각도</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Dodger Blue" data-flip-category="Blues">
+                                <figure class="con_fig">
+                                    <img src="./images/concert6.jpg" alt="부평옥션 화이트세일">
+                                    <figcaption>부평옥션 화이트세일</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Cyan" data-flip-category="Blues">
+                                <figure class="con_fig">
+                                    <img src="./images/concert7.jpg" alt="극장투어 예술무대 보물찾기">
+                                    <figcaption>극장투어 예술무대 보물찾기</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Robin's Egg" data-flip-category="Blues">
+                                <figure class="con_fig">
+                                    <img src="./images/concert8.jpg" alt="시네마 클래식 데이">
+                                    <figcaption>시네마 클래식 데이</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Deep Sea" data-flip-category="Greens">
+                                <figure class="con_fig">
+                                    <img src="./images/concert9.jpg" alt="정해민 개인전 그림의 집">
+                                    <figcaption>정해민 개인전 그림의 집</figcaption>
+                                </figure>
+                            </li>
+                            <li data-flip-title="Apple" data-flip-category="Greens">
+                                <figure class="con_fig">
+                                    <img src="./images/concert10.jpg" alt="너에게 가는 길은 말랑말랑">
+                                    <figcaption>너에게 가는 길은 말랑말랑</figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+
+                        <div class="com_more">
+                            <a href="./sub3/sub3_1.html">view more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                
+                    <script>
+                        var coverflow = $("#coverflow").flipster();
+                    </script>
+                
+                
+                </div>
+            </section>
+            
+            <section class="facility">
+                <div class="facility_inner">
+                    <div class="fac_intro">
+                        <div class="fac_rgba">
+                            <h3>arts for everyone</h3>
+                            <p class="fac_top_text">연간 40여개의 공연을 선보여 지역주민들과 공감하고 있으며 다양한 장르의 문화예술교육프로그램을 운영하고 있습니다. <br>
+                                문화와 예술, 그리고 평범한 삶에 대하여 두런두런 이야기를 나눌 수 있는 공간으로 나아가고자 합니다</p>
+                        </div>
+                    </div>
+                    
+                    <div class="fac_list_inner">
+                        <ul class="fac_listbox">
+                            <li class="fac_list1 wp5 delay-07s">
+                                <div class="box">
+                                    <a href="./sub4/sub4_1.html"><img class="fac_img1" src="./images/facility1.jpg" alt="부평아트센터"></a>
+                                </div>
+                                <dl>
+                                    <dt>부평아트센터</dt>
+                                    <dd class="fac_title">누구나 즐길 수 있는 복합문화공간</dd>
+                                    <dd class="fac_text">부평아트센터는 문화예술인의 활동 공간 및 지역민들을 위한 문화기반시설을 확충하고
+                                        풍요로운 문화 부평의 발전 기틀을 마련하기 위해 인천광역시와 부평구청이 출연한 복합 문화공간입니다.</dd>
+                                </dl>
+                                <div class="fac_more1"> 
+                                    <a class="more" href="./sub4/sub4_1.html">view more<i class="fas fa-chevron-right "></i></a>
+                                </div>
+                            </li>
+                        
+                            <li class="fac_list2 wp6 delay-07s">
+                                <a class="fac_list2_a" href="./sub4/sub4_1.html"><img class="fac_img2" src="./images/facility2.jpg" alt="부평생활문화센터 공감168"></a>
+                                <dl>
+                                    <dt>부평생활문화센터 공감168</dt>
+                                    <dd class="fac_title">우리가 함께 만드는 문화적 삶의 공간</dd>
+                                    <dd class="fac_text">&lsquo;지역의 주민이 문화적 욕구 충족을 위하여 자발적이거나 일상적으로 참여하여 행하는 유형&middot;무형의 문화적 활동&rsquo;을 뜻합니다.
+                                        부평구 생활문화 센터는 생활문화활동을 하고자 하는 지역주민 누구나 함께 소통하며 공감할 수 있는 공간입니다.
+                                        오늘부터 생활 문화 활동에 참여해보는건 어떨까요?</dd>
+                                </dl>
+                                <div class="fac_more2"> 
+                                    <a class="more" href="./sub4/sub4_1.html">view more<i class="fas fa-chevron-right "></i></a>
+                                </div>
+                            </li>
+                        
+                            <li class="fac_list3 wp7 delay-07s">
+                                <a href="./sub4/sub4_1.html"><img class="fac_img3" src="./images/facility3.jpg" alt="부평문화사랑방"></a>
+                                <dl>
+                                    <dt>부평문화사랑방</dt>
+                                    <dd class="fac_title">우리집 근처에 언제나 열려있는 공연장</dd>
+                                    <dd class="fac_text">다양한 장르의 문화예술교육프로그램을 마련하여 운영하고 있습니다.
+                                        문화사랑방은 두런두런 부평구 지역주민들과 이야기를 함께 나눌 수 있는 공간으로 나아가고자 합니다.</dd>
+                                </dl>
+                                <div class="fac_more3"> 
+                                    <a class="more" href="./sub4/sub4_1.html">view more<i class="fas fa-chevron-right "></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            
+            <? include "./lib/func2.php"; ?>
+            <section class="notice">
+                <div class="notice_inner1">
+                    <div class="notice_inner2 notice_box wp10 delay-1s">
+                        <h3 class="wp8 delay-08s">notice & review</h3>
+                        <p class="wp9 delay-09s">부평구문화재단의 새로운 소식과 공연 후기를 확인해보세요</p>
+
+                        <div class="nr_box">
+                            <div class="notice_left">
+                                <ul>
+                                    <? latest_article("greet", 3, 46, 1); ?>
+                                </ul>
+                                <div class="notice_a">
+                                    <a class=" wp9 delay-09s" href="./greet/list.php">view more<i class="fas fa-chevron-right"></i></a>
+                                </div> 
+                            </div>
+                            <div class="review_right">
+                                <ul>
+                                    <? latest_article("concert", 1, 60, 2); ?>
+                                </ul>
+                                <div class="notice_a2">
+                                    <a class=" wp9 delay-1s" href="./concert/list.php">view more<i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+            </section>
+
+            <div class="rent_edu">
+                <div class="rent_edu_inner">
+                    <a href="./sub4/sub4_3.html">
+                        <section class="rent_box">                    
+                            <h3 class="hidden">rent</h3>
+                            <div class="rent_div">
+                                <img src="./images/rent.jpg" alt="대관문의">
+                                <dl class="rent_dl">
+                                    <dt>대관신청 <i class="fas fa-angle-right"></i></dt>
+                                    <dd>부평구문화재단의 시설을 대관하실 수 있습니다.</dd>
+                                </dl>
+                            </div>
+                        </section>
+                    </a>
+                    <a href="./sub5/sub5_2.html">
+                        <section class="edu_box">
+                            <h3 class="hidden">arts education</h3>
+                            <div class="edu_div">
+                                    <img src="./images/edu.jpg" alt="예술교육 신청">
+                                    <dl class="edu_dl">
+                                        <dt>예술교육 <i class="fas fa-angle-right"></i></dt>
+                                        <dd>부평구문화재단의 예술교육 프로그램을 확인하실 수 있습니다.</dd>
+                                    </dl>
+                            </div>
+                        </section>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <!-- 하단 footer 영역 -->
+        <? include "./common/main_foot.html" ?>
+
+    </div>
+
+
+    <!-- 공지팝업 -->
+    <div id="showimage" style="z-index:89;position:absolute;width:322px;right:120px;top:250px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); 
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+          </div>
+           <div style="font-size:12px;text-align:center;color:#fff;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="하루 동안 이 창을 열지 않음 선택상자"><label for="Notice">하루 동안 이 창을 열지 않음</label>
+           <a style="color: #fff;" href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+           </div>
+      </div>
+
+      <!-- jquery -->
+      <script src="./common/js/jquery-1.12.4.min.js"></script>
+      <script src="./common/js/jquery-migrate-1.4.1.min.js"></script>
+      <script src="./common/js/fullnav.js"></script>
+      <script src="./mainjs/index.js"></script>
+      <script src="./mainjs/move.js"></script>
+      <script src="./mainjs/waypoints.min.js"></script>
+      
+      
+
+</body>
+</html>

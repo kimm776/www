@@ -1,0 +1,135 @@
+/* 와이드 pc  */
+.imgBox h2{position: absolute; top: 50%; left: 50%; color: #fff; font-family:  'Fugaz One', cursive; font-size: 97px; margin: -74px 0 0 -266px; letter-spacing: 4px;
+	animation: text-ani 1s;}
+@keyframes text-ani {
+	0% { transform:translateY(-30px); opacity: 0;}
+	100% { transform:translateY(0); opacity: 1;}
+}
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#imgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100;}
+
+.down{display: block; font-size: 22px; position: absolute; left:50%; margin-left: -84px; bottom: 13%; animation:ani 1s infinite alternate;}
+.down::after{content: ''; display: block; background: url(../images/lol.png) no-repeat; width: 55px; height: 57px; margin: 15px auto 0;}
+@keyframes ani {
+	0% { transform:scale(1); color: #fff;}
+	100% { transform:scale(1.1); color: #fff; }
+}
+
+#content{width: 100%; background: rgba(0, 0, 0, .8); color: #fff;}
+.con1{ padding: 0 5% 150px;}
+.con1 h3{text-align: center; padding: 150px 0 70px; text-transform: uppercase; font-size: 48px; font-family: 'Balthazar', serif; font-weight: lighter; letter-spacing: 3px;}
+
+.con1 .cham_div{margin-bottom: 80px;}
+.con1 .cham{overflow: hidden; text-align: center;}
+.con1 .cham>li{float: left; width: 47%;}
+.con1 .cham_img{margin-right: 3%;}
+.con1 .cham_img img{width: 80%;}
+
+
+.con1 .intro{opacity: .9; color: #eee; text-align: justify; }
+.con1 .intro dt{font-size: 63px; font-weight: 600;  padding: 80px 0 60px;  font-style: italic;}
+.con1 .intro dd{line-height: 2;}
+.con1 .intro dd:last-child{margin-top: 20px;}
+.con1 .intro dd span{font-size: 26px; padding-bottom: 30px; display: block; color: #0bc6e3;}
+
+.con1 .skill{overflow: hidden; width: 100%; margin-top: 50px; }
+.con1 .skill li{float: left; margin-left: 8%; width: 70px; height: 70px; padding: 7px 0;}
+.con1 .skill li:first-child{margin-left: 0;}
+.con1 .skill span{font-size: 24px; font-weight: 500; text-transform: uppercase; display: block; opacity: .9; color: #eee; letter-spacing: 2px; padding-top: 20px;}
+.con1 .skill li img{width: 100%; transition: all .2s;}
+.con1 .skill li:hover img{transform: scale(1.2); filter: hue-rotate(60deg);}
+
+.con1 .skin_skill h3{padding: 60px 0 120px;}
+.con1 .skin_skill ul{overflow: hidden; margin-bottom: 3%;}
+.con1 .skin_skill li{float: left; width: 31.33%; margin-left: 3%;}
+.con1 .skin_skill li:nth-child(1){margin-left: 0;}
+.con1 .skin_skill li img{width: 100%;}
+/*   height: 290px; */
+
+
+/* 일반 pc */
+@media screen and (max-width: 1280px) {
+	.con1{ padding: 0 5% 150px;}
+	.con1 h3{font-size: 40px;  padding-top: 130px;}
+
+	.con1 .cham>li:first-child{margin-right: 3%;}
+	.con1 .cham_img img{width: 90%;}
+	.con1 .yasuo{padding-top: 30px;}
+	.con1 .lux{padding-top: 20px;}
+
+	.con1 .intro dt{font-size: 48px; padding: 70px 0 50px;}
+	.con1 .intro dd{font-size: 17px;}
+	.con1 .intro dd span{font-size: 24px; padding-bottom: 20px;}
+
+	.con1 .skill li{width: 63px; height: 63px; margin-left: 8%;}
+	.con1 .skill span{font-size: 22px;}
+
+	.con1 .skin_skill h3{padding: 40px 0 100px;}
+
+
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+	.con1 h3{font-size: 37px; padding-bottom: 50px; }
+
+	.con1 .cham_div{margin-bottom: 60px;}
+	.con1 .cham_img img{width: 100%;}
+	
+	.con1 .yasuo{padding-top: 0;}
+	.con1 .lux{padding-top: 0;}
+
+	.con1 .intro dt{font-size: 43px}
+	.con1 .intro dd span{font-size: 22px;}
+	.con1 .intro dd:nth-of-type(3){display: none;}
+
+	.con1 .skill li{width: 58px; height: 58px; margin-left: 8%;}
+	.con1 .skill span{font-size: 20px;}
+
+	.con1 .first_ul li:nth-child(3), .con1 .last_ul li:nth-child(3){display: none;}
+	.con1 .skin_skill li{width: 48%; margin: 0 0 1% 4%;}
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width: 768px) {
+	.imgBox h2{font-size: 82px; margin-left: -227px;}
+
+	.con1 h3{font-size: 35px;}
+
+	.con1 .cham_div{margin-bottom: 40px;}
+
+	.con1 .cham>li{float: none; width: 100%;}
+	.con1 .cham>li:first-child{width: 60%; margin: 0 auto;}
+	.con1 .intro{text-align: center;}
+	.con1 .intro dt{padding-top: 60px;}
+
+	.con1 .skill{margin: 50px 0 50px 12%;}
+
+
+
+
+
+}
+
+/* 모바일 */
+@media screen and (max-width: 640px) {
+	.con1 h3{font-size: 33px; padding-bottom: 30px;}
+	
+	.con1 .intro dt{font-size: 39px}
+	.con1 .intro dd{font-size: 16px;}
+	.con1 .intro dd span{font-size: 20px;}
+
+	.con1 .skill{margin-left: 8%;}
+	.con1 .skin_skill li:nth-child(1){margin: 0 0 10% 4%}
+	.con1 .skin_skill li{float: none; width: 90%; margin: 0 0 10% 4%}
+	.con1 .first_ul li:nth-child(3){display: block;}
+	.con1 .last_ul li{display: none;}
+
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width: 480px) {
+}

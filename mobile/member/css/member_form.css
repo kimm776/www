@@ -1,0 +1,43 @@
+/* 회원가입 */
+#wrap{background: #f1f1f1;}
+.form_wrap{width: 80%; margin: 120px 10%; padding: 10%; background: #fff; border-radius: 20px; box-sizing: border-box ; border: 1px solid #ccc;
+    text-align: left}
+.logo{display: block; width: 58px; height: 75px; background: url(../images/logo.png) no-repeat; text-indent: -999px; overflow: hidden; padding-right: 5px;
+margin: 0 auto;}
+.logo a{width: 58px; height: 75px; display: block;}
+
+.join_notice{margin: 50px 0 30px; color: #444; font-size: 16px;}
+.join_notice li{position: relative; padding-left: 18px; margin-bottom: 5px;}
+.join_notice li span{text-decoration: underline; font-weight: 500;}
+.join_notice li::before{content: ''; background: #444; width: 6px; height: 6px; border-radius: 50%; display: block;
+      position: absolute; top: 11px; left: 0;}
+#content .list_wrap{border-top: 2px solid #333; padding-top: 30px;}
+
+
+#content .form_row{margin-bottom: 20px;}
+#content .form_row .tit{font-size: 16px;font-weight: 600;margin-bottom: 12px;}
+#content .form_row input{width: 92%;padding: 15px 4%;border: 1px solid #c1c1c1;outline: none;}
+#content .form_row input:focus{border: 1px solid #3e4c97;}
+#content .form_row li{position: relative;}
+#content .form_row #loadtext, #content .form_row #loadtext2{
+color: #3e4c97;display: inline-block;position: absolute;top: 15px;right: 2%;}
+
+#content .tel_num{overflow: hidden;}
+#content .tel_num li{width: 31.5%;float: left; margin-right: 4%;}
+#content .tel_num li:first-of-type{background: #fff; border: 1px solid #ccc; width: 21.7%;}
+#content .tel_num li:last-of-type{margin-right: 0;float: left; margin-left: 4%;}
+#content .tel_num select{padding: 13px 24px;font-size: 16px;border: 0;outline: 0;background: #fff;}
+#content .tel_num input{width: 100%}
+
+#content .email_input{overflow: hidden;}
+#content .email_input li{float: left;width: 44.6%;}
+#content .email .dot{width: 10%;text-align: center;}
+#content .email .dot span{font-size: 18px;text-align: center;display: inline-block;padding-top: 14px;}
+.email_ul{border-bottom: 2px solid #333; padding-bottom: 20px;}
+
+.button{padding-top: 30px; overflow: hidden;}
+.button button {text-align: center; display: inline-block; padding: 13px 0; font-size: 16px; font-size: 17px; margin-top: 20px; cursor: pointer;}
+.button .allcheck{border: 2px solid #3e4c97; background: #3e4c97; width: 100%; margin-top: 20px; color: #fff;}
+.button .check_agree{ background: #999; border: 2px solid #999; color: #fff; width: 49%; margin-right: 2%; box-sizing: border-box; float: left;}
+.button .cancel{background: #333; margin-top: 20px; border: 2px solid #333; color: #fff; width: 49%; text-align: center; box-sizing: border-box;
+    display: block; float: left; padding: 13px 0; font-size: 17px;}

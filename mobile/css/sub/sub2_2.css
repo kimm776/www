@@ -1,0 +1,11 @@
+/* 컨텐츠2 */
+.content{margin: 0 5% 100px;}
+.content img{width: 100%; border-radius: 20px;}
+.content h3{color: #333; text-align: left; font-size: 20px; margin: 40px 0 25px; position: relative; padding-left: 13px;}
+.content h3::before{content: ''; display: block; width: 4px; height: 22px; background: #ea5206; position: absolute; top: 4px; left: 0;}
+.content p{color: #555; font-size: 16px; padding-bottom: 25px; border-bottom: 2px dotted #ccc; line-height: 1.8;}
+.content dl{padding: 25px 0 65px;}
+.content li:last-child dl{padding-bottom: 0;}
+.content dt{font-weight: 500; color: #444; position: relative; padding-left: 12px;}
+.content dt::before{content: ''; display: block; width: 5px; height: 5px; border-radius: 50%; background: #ea5206; position: absolute; top: 10px; left: 0;}
+.content dd{font-weight: 300; margin: 10px 0 15px; font-size: 14px;}

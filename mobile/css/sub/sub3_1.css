@@ -1,0 +1,36 @@
+/* 컨텐츠2 */
+.tabs{width: 100%;}
+.ul{overflow: hidden; margin-top: 70px; width: 100%;}
+.ul li{float: left; width: 50%; text-align: center;}
+/* .ul li a{padding: 0 25%; display: block;} */
+
+.content{margin: 50px 5% 100px; border-top: 2px solid #666;}
+.content img{width: 43%; margin: 50px 0 30px 30%;}
+.content .box{overflow: hidden;}
+.content .sun{float: left; display: block; background: rgb(23, 145, 189); padding: 5px; color: #fff;  text-align: center; width: 90px;
+    margin-top: 30px; border-radius: 10px;}
+.content .moon{float: left; display: block; background: #3e4c97; padding: 5px; color: #fff;  text-align: center; width: 90px;
+    margin-top: 30px; border-radius: 10px;}
+.content .sa{float: left; display: block; background: #378c3e; padding: 5px; color: #fff;  text-align: center; width: 110px;
+    margin-top: 30px; border-radius: 10px;}
+.content .rent{float: left; display: block; background: #ea5206; padding: 5px; color: #fff; text-align: center; width: 40px;
+    margin: 30px 0 0 10px; border-radius: 10px;}
+.content .plan{float: left; display: block; background: rgb(208, 39, 137); padding: 5px; color: #fff; text-align: center; width: 40px;
+    margin: 30px 0 0 10px; border-radius: 10px;}
+dl{overflow: hidden;}
+.content dt{font-weight: 500; font-size: 21px; margin: 20px 0 25px;}
+.content dd{font-size: 16px; margin-bottom: 15px;}
+.content dd>span{font-size: 17px; margin-right: 50px;}
+.content a{width: 40%; display: block; font-size: 17px; float: left; text-align: center; border: 1px solid #ccc; border-radius: 30px; padding: 10px 0 ;
+    margin: 30px 4% 0;}
+.content a i{color: #555; padding-left: 10px;}
+.content .a1{background: #f1f1f1;}
+.content li{border-bottom: 1px solid #ccc; padding-bottom: 120px;}
+
+
+.slide_tabs{overflow: hidden; margin-top: 60px;}
+.slide_tabs a{display: block; width: 33.33%; float: left; text-align: center; font-size: 18px; padding: 15px 0 20px 0; color: #444;
+border-bottom: 1px solid #ccc;}
+
+.active{ color: #333; font-weight: bold; position: relative;}
+.active::before{content: ''; display: block; width: 16px; height: 16px; background: #ea5206; position: absolute; bottom: -10px; left: 50%; margin-left: -8px; transform: rotate(45deg);}

@@ -1,0 +1,44 @@
+
+/* con 내용 */
+
+.content_inner{overflow: hidden;}
+.scale_list{float: left;}
+.scale_list select{outline: none; font-family: 'Noto Sans KR', sans-serif; font-size: 17px; padding: 9.2px 15px 9.2px 10px; border: 1px solid #aaa; float: left;}
+.total{float: left; padding: 8px 0 0 15px; font-size: 21px;}
+.total span{color: #ea5206; font-weight: 500;}
+
+.right_content{float: right;}
+.form{float: right;}
+.form .list_search{overflow: hidden;}
+.form .list_search div{float: left;}
+.form .list_search select{font-family: 'Noto Sans KR', sans-serif; font-size: 17px; padding: 9.2px 15px 9.2px 10px; border: 1px solid #aaa;  margin-right: 7px;}
+.form .list_search input{font-family: 'Noto Sans KR', sans-serif; font-size: 17px; padding: 10px 15px; border: 1px solid #aaa; margin-right: 7px;}
+.form .list_search #search_btn{background: #333; color: #fff; outline: none; border: none; padding: 10.8px 20px; margin-right: 0;}
+
+#list_content{margin-top: 30px; overflow: hidden; border-top: 2px solid #555; padding-top: 60px;}
+.list_item{float: left; width: 23.33%; margin: 0 5%;}
+.list_item .list_box{position: relative; margin-bottom: 100px;} 
+.list_item .list_box img{width: 100%; transition: all .3s ease-out;}
+.list_item .list_box .img{display: block; overflow: hidden; transition: all .3s ease-out;}
+.list_item .list_box:hover img{transform: scale(1.1); }
+.list_item .list_box .title{display: block; text-align: justify; font-size: 21px; font-weight: 500; margin: 15px 0 50px; height: 30px; padding: 45px 0 0 0;}
+
+.bot{overflow: hidden; position: absolute; bottom: 50px; left: 0; width: 100%;}
+.bot .list_item4{float: left; font-size: 16px; font-weight: 500; color: #2f4ac4;}
+.bot .list_item5{float: right; font-size: 17px; margin-top: -2px;}
+.bot .far{padding-right: 10px;}
+
+
+#page_button{text-align: center; padding: 40px 0 60px; clear: both; border-top: 1px solid #999;}
+#page_button .fa-chevron-left{margin-right: 20px;}
+#page_button .fa-chevron-right{margin-left: 20px;}
+#page_button b{padding: 0 9px; font-size: 23px;}
+#page_button .page_btn{padding: 0 9px; font-size: 22px; font-weight: 300;}
+
+
+#button{position: absolute; right: 0; bottom: 41.5px; font-size: 18px; padding: 10px 0; }
+#button .list_btn{color: #fff; padding: 10px 0; background: #444; width: 110px; display: inline-block; margin-left: 5px;}
+#button .list_btn:hover{opacity: .9;}
+#button .write_btn{color: #fff; padding: 10px 0; background: #3e4c97; width: 110px; display: inline-block;}
+#button .write_btn:hover{opacity: .9;}
+#list_content{position: relative;}

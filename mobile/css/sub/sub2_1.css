@@ -1,0 +1,42 @@
+
+/* 컨텐츠1 */
+.content{margin: 0 5% 100px;}
+.content li{border: 1px solid #ccc; margin-bottom: 40px;}
+.content dl{margin: 5% 10% 7% 5%;}
+.content dt{font-size: 18px; font-weight: 500; margin-bottom: 10px; padding: 5px 0 10px;}
+.content dt span{color: #ea5206;}
+.content li:nth-child(1) dt{background: url(../../images/sub/sub2/no_02.jpg) right no-repeat;}
+.content li:nth-child(2) dt{background: url(../../images/sub/sub2/no_03.jpg) right no-repeat;}
+.content li:nth-child(3) dt{background: url(../../images/sub/sub2/no_04.jpg) right no-repeat;}
+.content li:nth-child(4) dt{background: url(../../images/sub/sub2/no_05.jpg) right no-repeat;}
+.content li:nth-child(5) dt{background: url(../../images/sub/sub2/no_06.jpg) right no-repeat;}
+.content li:nth-child(6) dt{background: url(../../images/sub/sub2/no_07.jpg) right no-repeat;}
+.content dd{line-height: 1.7; font-weight: 300; position: relative; width: 100%; padding: 0 20px 0 13px; font-size: 15px; text-align: justify; margin-top: 7px;}
+.content dd::before{content: ''; display: block; width: 5px; height: 5px; background: #ea5206; position: absolute; top: 11px; left: 0; border-radius: 50%;}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(1) dt{ background: url("../../images/sub/sub2/no_02.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(2) dt{ background: url("../../images/sub/sub2/no_03.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(3) dt{ background: url("../../images/sub/sub2/no_04.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(4) dt{ background: url("../../images/sub/sub2/no_05.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(5) dt{ background: url("../../images/sub/sub2/no_06.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .content li:nth-child(6) dt{ background: url("../../images/sub/sub2/no_07.jpg") right no-repeat;
+    -webkit-background-size: 41px;}
+}
+

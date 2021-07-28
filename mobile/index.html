@@ -1,0 +1,212 @@
+<?
+	session_start();
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>부평구문화재단</title>
+
+<!-- 로딩 이미지 -->
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- visual's css -->
+<link rel="stylesheet" href="css/flexslider.css">
+<!-- Swiper's CSS -->
+<link rel="stylesheet" href="css/swiper.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  //주소창 위로 올리기
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <? include "head.html"  ?>
+    <!-- 비주얼 영역 -->
+        <div class="main">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="./images/visual1x2.jpg" alt="비주얼">
+                        <p><span><strong>C</strong>ultural <strong>S</strong>ensitivity</span><br>소통을 통해 터를 가꾸는 문화재단</p>
+                    </li>
+                    <li>
+                        <img src="./images/visual2x2.jpg" alt="비주얼">
+                        <p><span><strong>A</strong>rt <strong>D</strong>ynamics</span><br>문화예술이 함께하는 행복한 부평구</p>
+                    </li>
+                    <li>
+                        <img src="./images/visual3x2.jpg" alt="비주얼">
+                        <p><span><strong>C</strong>onversation <strong>E</strong>mpathy</span><br>일상 속에 공연이 있는 문화도시 부평</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>    
+        
+            <section class="bupyeong">
+                <span class="title">the power of culture</span><br><h3>bupyeong cultural</h3>
+                <p>공감을 나누는 소통은 더욱 풍성한 문화를 피워낼 것입니다. 부평구문화재단은 지역의 문화예술을 지속 발전할 수 있도록 재단으로서의 역할을 다할 것 입니다.</p>
+                <a href="./sub1_1.html"><span>bupyeong cultural foundation<i class="fas fa-plus-circle"></i></span><img src="./images/bupyeongx2.jpg" alt="부평구문화재단 사진"></a>
+            </section>
+
+            <section class="poster">
+                <span class="title">more performances</span><br><h3>upcoming concert</h3>  
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/poster1x2.jpg" alt="정해민 개인전">
+                            <dl>
+                                <dt>정해민 개인전</dt>
+                                <dd>소통과 교감의 가치를 실현하는 흔적이 될 수 있도록 기획되었습니다.</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster2x2.jpg" alt="부평영아티스트 5기 선정작가전">
+                            <dl>
+                                <dt>부평 아티스트 선정 작가전</dt>
+                                <dd>개인 혹은 사회적 이슈를 독창적 시각언어로 풀어낸 작품들을 선보인다.</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster3x2.jpg" alt="브런치 콘서트">
+                            <dl>
+                                <dt>브런치 콘서트</dt>
+                                <dd>서현진과 함께하는 모두를 위한 로망스 프로그램입니다.</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster4x2.jpg" alt="시네마 클래식 데이">
+                            <dl>
+                                <dt>시네마 클래식 데이</dt>
+                                <dd>우리 가족 추억이 담긴 영화 속 명장면의 감동을 생생히!</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster5x2.jpg" alt="민화,변치않는 소망을 입다">
+                            <dl>
+                                <dt>민화, 변치않는 소망을 입다</dt>
+                                <dd>‘소망의 기원’이라는 민화가 가진 주제로 새로운 한 해를 맞이하도록 기획된 전시이다.</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster6x2.jpg" alt="풍경의 각도">
+                            <dl>
+                                <dt>풍경의 각도</dt>
+                                <dd>팬데믹 여파로 평범했던 일상의 풍경은 일순간 삶에서 떨어져 낯선 풍경이 되었다. </dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster7x2.jpg" alt="라이브 더빙쇼">
+                            <dl>
+                                <dt>라이브 더빙쇼</dt>
+                                <dd>고전 영화 복원의 의미를 새롭게 현대화시키며 현재의 관객들에게 생동감있는 영화체험을 선사합니다.</dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide"><img src="./images/poster8x2.jpg" alt="당신의 조각들">
+                            <dl>
+                                <dt>당신의 조각들</dt>
+                                <dd>고전적 미술 장르를 주제로 다채로운 형태와 의미를 가진 작품을 선보이고자 합니다. </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    
+                    
+                        <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <a href="./sub3_1.html" class="more">공연 더보기</a>
+                </div>   
+            </section>
+
+            <section class="facility">
+                <span class="title">introduction to facilities</span><br><h3>arts for everyone</h3> 
+                <ul class="tab_menu">
+                    <li><a class="tab tab1" href="#">부평아트센터</a></li>
+                    <li><a class="tab tab2" href="#">공감168</a></li>
+                    <li><a class="tab tab3" href="#">문화사랑방</a></li>
+                </ul>
+                <div class="contlist">
+                    <img src="./images/fac1x2.jpg" alt="부평아트센터">
+                    <span  class="span">누구나 즐길 수 있는 공간</span><br><h4>부평아트센터</h4>
+                    <p>부평아트센터는 문화예술인의 활동 공간 및 지역민들을 위한 문화기반시설을 확충하고 풍요로운 문화 부평의 발전 기틀을 마련하기 위해 출연한 복합 문화공간입니다.</p>
+                    <a href="./sub4_1.html" class="more">자세히보기<i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="contlist">
+                    <img src="./images/fac2x2.jpg" alt="공감168">
+                    <span class="span">함께 만드는 문화적 공간</span><br><h4>공감168</h4>
+                    <p>부평구 생활문화 센터는 생활문화활동을 하고자 하는 지역주민 누구나 함께 소통하며 공감할 수 있는 공간입니다. 오늘부터 함께 활동에 참여해보는건 어떨까요?</p>
+                    <a href="./sub4_1.html" class="more">자세히보기<i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="contlist">
+                    <img src="./images/fac3x2.jpg" alt="문화사랑방">
+                    <span class="span">우리집 근처에 언제나 열려있는 공연장</span><br><h4>문화사랑방</h4>
+                    <p>다양한 장르의 문화예술교육프로그램을 마련하여 운영하고 있습니다. 문화사랑방은 부평구 지역주민들과 이야기를 함께 나눌 수 있는 공간으로 나아가고자 합니다.</p>
+                    <a href="./sub4_1.html" class="more">자세히보기<i class="fas fa-angle-right"></i></a>
+                </div>
+            </section>
+
+            <section class="info">
+                <h3 class="hidden">more facilities</h3>
+                <ul>
+                    <li>
+                        <a href="./sub2_2.html"><span>1F<br><strong>TICKET OFFICE</strong></span></a>
+                    </li>
+                    <li>
+                        <a href="./sub2_2.html"><span>2F<br><strong>LOUNGE</strong></span></a>
+                    </li>
+                    <li>
+                        <a href="./sub2_2.html"><span>outdoor<br><strong>DECK</strong></span></a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sns">
+                <div>
+                    <div class="bg"><h3 class="bgimg"><span class="hidden">instagram</span></h3></div>
+                    
+                    <ul>
+                        <li><a href="https://www.instagram.com/p/CJuw0wdFTQp/" target="blank" title="새 창으로 이동"><img src="./images/ins1x2.jpg" alt="인스타그램 사진"></a></li>
+                        <li><a href="https://www.instagram.com/p/CPZ615klg8B/" target="blank" title="새 창으로 이동"><img src="./images/ins2x2.jpg" alt="인스타그램 사진"></a></li>
+                        <li><a href="https://www.instagram.com/p/CJcX5uSl0if/" target="blank" title="새 창으로 이동"><img src="./images/ins3x2.jpg" alt="인스타그램 사진"></a></li>
+                        <li><a href="https://www.instagram.com/p/COhNrx-lgC1/" target="blank" title="새 창으로 이동"><img src="./images/ins4x2.jpg" alt="인스타그램 사진"></a></li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+
+        <!-- 푸터 영역 -->
+        <? include "foot.html"  ?>
+
+ 
+<!-- script연결 -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/nav_topbtn.js"></script>
+<script src="js/index.js"></script>
+<script src="js/swiper.min.js"></script> <!-- Swiper JS -->
+<script src="js/jquery.flexslider.js"></script> <!-- visual JS -->
+
+</body>
+</html>

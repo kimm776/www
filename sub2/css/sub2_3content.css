@@ -1,0 +1,22 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+.content_area{width: 1200px; margin: 150px auto;}
+.content_area p{font-size: 1.6em; font-weight: 500; line-height: 1.8em; margin-bottom: 80px; padding-left: 40px;}
+.content_area p span{color: #ea5206;}
+.content_area ul{border-top: 2px solid #777; padding-top: 40px;}
+.content_area li{overflow: hidden; margin-bottom: 50px; padding: 60px 40px; border-bottom: 1px solid #ccc;}
+.content_area li:nth-child(even){padding-right: 60px;}
+.content_area li:nth-child(even) img{float: right;}
+.content_area li:nth-child(even) dl{float: right; margin-right: 70px;}
+.content_area li:nth-child(odd) dl{margin-left: 70px;}
+.content_area img{float: left; box-shadow: 10px 10px 50px rgb(0 0 0 / 25%); margin-bottom: 40px;}
+.content_area dl{float: left; width: 500px; text-align: justify; padding-top: 55px; }
+.content_area dt{font-size: 1.8em; color: #222; margin: 10px 0 30px; font-weight: 500; padding-left: 20px; position: relative;}
+.content_area dt::before{content: ''; display: block; background-color: #ea5206; width: 10px; height: 10px; transform: rotate(45deg); position: absolute; top: -5px; left: 2px;}
+.content_area dd{color: #444; font-weight: 300; line-height: 1.9em; margin-bottom: 8px; padding-left: 15px;}
+
+
+

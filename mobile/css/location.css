@@ -1,0 +1,20 @@
+.content{margin: 120px 5% 100px;}
+.content h2{font-size: 23px; font-weight: 500; color: #222; margin: 0 auto 50px; width: 92px;}
+#map{width: 100%; height: 300px; border: 1px solid #ccc;}
+.content .title{margin-top: 50px; border-bottom: 1px solid #ccc;}
+.content .title dt{ font-size: 19px; line-height: 1.6; text-align: center;}
+.title dt span{color: #ea5206;}
+.title dd{font-weight: 300; margin-top: 20px; line-height: 1.7; text-align: justify; padding-bottom: 50px;}
+
+.public{ padding-top: 50px;}
+.public dl{margin-bottom: 50px;}
+.public dt{font-size: 18px; margin-bottom: 30px;}
+.public dt .fas{font-size: 22px; color: #555;}
+.public dd{font-weight: 300; margin-bottom: 20px;}
+.public strong{font-weight: 400; color: #3e4c97;}
+.public span{color: #fff; text-align: center; border-radius: 10px; padding: 3px 0; width: 23%; display: block; float: left; margin-right: 10px;}
+.public .sub_1{background: #003499; }
+.public .sub_2{background: #509ed1;}
+.public .bus_1{background: #dc2971;}
+.public .bus_2{background: #26a97f;}
+.public .car span{background: #333;}

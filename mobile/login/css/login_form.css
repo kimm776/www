@@ -1,0 +1,27 @@
+body{background: #f1f1f1;}
+.content{width: 80%; margin: 120px 10%; padding: 10%; background: #fff; border-radius: 20px; box-sizing: border-box ; border: 1px solid #ccc;
+    text-align: left}
+.logo_box {position: relative; overflow: hidden;}
+.logo_box .logo{display: block; width: 46px; height: 60px; background: url(../images/logo.png) no-repeat; text-indent: -999px; overflow: hidden; margin: 10px auto 0;
+float: right; padding-right: 5px;}
+.logo_box .logo a{width: 46px; height: 60px; display: block;}
+.logo_box h2{font-size: 35px; color: #333; font-weight: 700; float: left; padding-top: 20px;}
+
+.login_join{background: #fff; border-top: 2px solid #333; border-bottom: 2px solid #333; margin-top: 30px; padding: 30px 0 40px}
+.login{position: relative;}
+#id_pw_input{overflow: hidden;}
+#id_pw_input ul li{margin: 20px 0;}
+#id_pw_input ul li input{width: 100%; border: none; background: #f1f1f1; padding: 3px 0 5px 10px; height: 42px; font-size: 16px; outline: none;}
+
+#login_button{overflow: hidden; margin-top: 20px;}
+#login_button button{cursor: pointer; background: #3e4c97; color: #fff; padding: 5px; height: 50px; border: none; width: 46%; float: left; font-weight: 500;
+font-size: 17px;}
+
+#login_button a{display: inline-block; background: #333; color: #fff; padding: 12.5px 5px; border: none; font-size: 17px; width: 46%; float: right; text-align: center; font-weight: 500;}
+
+
+#join_button ul{padding-top: 40px; width: 254px; overflow: hidden; margin: 0 auto}
+#join_button ul li{float: left;}
+#join_button li{text-align: center; font-size: 16px; font-weight: 500; margin-left: 5%;}
+#join_button li:first-child{margin-left: 0;}
+#join_button a{display: inline-block;  color: #3e4c97; font-weight: 500; font-size: 18px;}

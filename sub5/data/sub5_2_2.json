@@ -1,0 +1,49 @@
+{
+    "program": [
+        {
+            "cimg": "./images/content2/ing4.jpg",
+            "type1": " ing",
+            "type2": " 교육중",
+            "cname": " 내 멋대로 꿈 여행하기",
+            "people": " 온라인 20명",
+            "place": " 달누리극장",
+            "age": " 전연령",
+            "phone": " 032-500-2062",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/ing2.jpg",
+            "type1": " ing",
+            "type2": " 교육중",
+            "cname": " [비대면] 도자야 놀자",
+            "people": " 온라인 30명",
+            "place": " 참여자 개별 공간",
+            "age": " 초등1~6학년",
+            "phone": " 032-500-2067",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/ing3.jpg",
+            "type1": " ing",
+            "type2": " 교육중",
+            "cname": " 도자씨가 갑니다",
+            "people": " 전화 1명",
+            "place": " 내가 원하는 곳",
+            "age": " 부평구민 누구나",
+            "phone": " 032-500-2067",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/ing1.jpg",
+            "type1": " ing",
+            "type2": " 교육중",
+            "cname": " 연극으로 비폭력대화",
+            "people": " 온라인 15쌍",
+            "place": " 스튜디오 A,B",
+            "age": " 초등 3~6학년 및 보호자",
+            "phone": " 032-500-2062",
+            "type3": " off"
+        }
+        
+    ]
+}

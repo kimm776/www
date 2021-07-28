@@ -1,0 +1,32 @@
+#content{background: url(../images/join_bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed} 
+.sub_cont_wrap{width: 1100px; margin: 0 auto; padding: 120px 0;}
+.logo{margin-bottom: 90px; }
+.logo a{display: block; background: url(../images/logo.png) no-repeat; width: 324px; height: 79px; 
+    text-indent: -999px; overflow: hidden; margin: 0 auto;}
+.join{background: #f1f1f1; padding: 100px 120px; border-radius: 20px; border: 1px solid #ccc; text-align: left}
+.join h2{font-size: 20px; font-weight: 600; margin: 60px 0 20px; position: relative; padding-left: 19px;}
+.join h2::before{content: ''; background: #333; width: 8px; height: 8px; border-radius: 50%; display: block;
+position: absolute; top: 12px; left: 0;}
+.join h2 span{font-size: 15px; color: #ea5206; font-weight: 500;}
+.join .policy{background: #fff; padding: 25px 30px; overflow-y: scroll; height: 100px; margin: 15px 0; line-height: 1.7em;
+    border: 1px solid #ddd; font-size: 16px; color: #555;}
+.join .check{width: 120px;}
+.join .check{cursor: pointer;}
+.join .check>input{cursor: pointer;}
+.join .check>label{cursor: pointer;}
+
+input[type=checkbox] + label::before {  display: inline-block;  width: 16px;  height: 16px;  background-color: transparent; 
+border: 2px solid #333; border-radius: 50%;  content:''; margin: 0px 10px -3.5px 0px ;}
+input[type=checkbox]:checked + label::before{background: #fff url(../images/check.png) center center no-repeat;border: 2px solid #ea5206;}
+input[type=checkbox]{display: none;}
+
+.button button {width: 276px; text-align: center; display: inline-block; margin: 70px 10px 30px 0;
+     padding: 15px 0; font-size: 16px; font-size: 18px;}
+.button button:hover{cursor: pointer; opacity: .8;}
+.button .allcheck{border: 2px solid #c3cce2; background: #c3cce2;}
+.button .check_agree{ background: #3e4c97; border: 2px solid #3e4c97; color: #fff;}
+.button .cancel{width: 273px; text-align: center; display: inline-block; margin: 70.5px 0 30px 0;
+    padding: 14.6px 0; font-size: 16px; font-size: 18px; background: #333; border: 2px solid #333;  color: #fff;}
+.button .cancel:hover{cursor: pointer; opacity: .8;}

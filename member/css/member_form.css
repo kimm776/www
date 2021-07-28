@@ -1,0 +1,39 @@
+#content{ background: url(../images/join_bg.jpg) center center no-repeat;  background-size: cover; background-attachment: fixed}
+.inner_wrap{ width: 1100px; margin: 0 auto; overflow: hidden; padding: 120px 0;}
+.logo{margin-bottom: 80px; }
+.logo a{display: block; background: url(../images/logo.png) no-repeat; width: 324px; height: 79px; 
+text-indent: -999px; overflow: hidden; margin: 0 auto;}
+.join_notice{margin-bottom: 20px; color: #444; font-size: 17px;}
+.join_notice li{position: relative; padding-left: 18px; margin-bottom: 5px;}
+.join_notice li span{text-decoration: underline; font-weight: 500;}
+.join_notice li::before{content: ''; background: #444; width: 7px; height: 7px; border-radius: 50%; display: block;
+      position: absolute; top: 11px; left: 0;}
+form{background: #f1f1f1; padding: 100px 120px; border-radius: 20px; border: 1px solid #ccc;}
+
+#content .list_wrap{border-top: 2px solid #333; border-bottom: 2px solid #333;}
+#content .form_row{overflow: hidden; border-bottom: 1px solid #e1e1e1; background: #fff;} 
+#content .form_row li{float: left;}
+#content .form_row .tit{width: 160px; background: #f9f9f9; border-right: 1px solid #e1e1e1;}
+#content .form_row .tit,#content .form_row .tit label{font-size: 16px; font-weight: 500; padding: 25px 0; position: relative;}
+#content .form_row .tit label{margin-left: 20px;}
+#content .form_row .tit span{position: relative; margin-left: 20px;}
+#content .form_row .tit label::after,#content .form_row .tit span::after{content: '*'; display: block; position: absolute; right: -20px; top: 26px; font-size: 20px; color: #e60012;}
+#content .form_row .tit span::after{top: 2px;}
+#content .list_wrap input,#content select{width: 365px; font-size: 17px; padding: 16px 20px; margin: 12px 20px; background: #f1f1f1 ; border: 0;outline: none;}
+#content #loadtext span,#content #loadtext2 span{position: relative; top: 0; right: 0; font-size: 16px;color: red;}
+#content .tel select{width: 150px;}
+#content .tel input,#content .email input{width: 183px;padding: 16px 20px;margin: 12px;background: #f1f1f1;border: 0;outline: none;}
+#content .email input{width: 244px; margin-left: 18px;}
+#content .email input:last-child{width: 275px;}
+
+.button{overflow: hidden;}
+.button li{float: left;}
+.button button {width: 279px; text-align: center; display: inline-block; margin: 70px 10px 30px 0;
+      padding: 15px 0; font-size: 16px; font-size: 18px;}
+.button button:hover{cursor: pointer; opacity: .8;}
+.button .join_btn button{border: 2px solid #3e4c97; background: #3e4c97; color: #fff;}
+.button .reset_btn button{ background: #999; border: 2px solid #999; color: #fff;}
+.button .cancel_btn a{width: 275px; text-align: center; display: inline-block; margin: 70px 0 30px 0;
+      padding: 14.7px 0; font-size: 18px; background: #333; border: 2px solid #333; color: #fff;}
+.button .cancel_btn a:hover{cursor: pointer; opacity: .8;}
+ 

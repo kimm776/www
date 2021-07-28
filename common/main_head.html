@@ -1,0 +1,124 @@
+
+
+<div id="skipNav">
+    <a href="#content">본문 바로가기</a>
+    <a href="#gnb">글로벌 네비게이션 바로가기</a>
+</div>
+
+<header id="headerArea">
+    <div class="header_inner">
+
+        <div class="header_top search_select">
+            <div class="top_menu">
+                <ul class="log">
+
+                <?
+                    if(!$userid) //세션변수가 등록되지 않았다면
+                    {
+                ?>
+
+                    <li class="login"><a href="./login/login_form.php">로그인</a></li>
+                    <li class="join"><a href="./member/member_check.html">회원가입</a></li>
+
+                <?
+                    }
+                    else   //세변변수가 등록되어 있다면
+                    {
+                ?>
+
+                    <li class="nick"><i class="fas fa-user"></i> <?=$usernick?> (level.<?=$userlevel?>)</li>
+                    <li class="login"><a href="./login/logout.php">로그아웃</a></li>
+                    <li class="join"><a href="./member/member_form_modify.php">정보수정</a></li>
+
+                <? 
+                    }
+                ?>
+
+                    <li class="search last search_arrow"><a href="#"><span class="hidden">공연검색</span><i class="fas fa-search"></i></a></li>
+                </ul>
+                <div class="search_box search_aList">
+                    <div class="search_wrap">
+                        <form  name="board_form" method="post" action="poster/list.php?mode=search&find=subject"> 
+                            <div id="list_search">
+                                <div id="list_search4"><input type="text" name="search" class="input" placeholder="공연명을 입력해주세요."></div>
+                                <div id="list_search5"><input type="submit" value="검색" class="button"></div>
+                            </div>	
+                        </form>
+
+                        <dl>
+                            <dt>ex</dt>
+                            <dd>옴니버스 인형극</dd>
+                            <dd>피아노 독주회</dd>
+                            <dd>가족 뮤지컬</dd>
+                            <dd>연극 안티고네</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_bottom">
+            <h1 class="logo">
+                <a href="index.html">부평구문화재단</a>
+            </h1>
+            <nav id="gnb">
+                <h2 class="hidden">네비게이션영역</h2>
+                <ul class="dropdownmenu">
+                    <li class="m1 menu">
+                        <h3><a class="depth1" href="sub1/sub1_1.html">재단소개</a></h3>
+                        <ul>
+                            <li><a href="sub1/sub1_1.html">부평구문화재단</a></li>
+                            <li><a href="sub1/sub1_2.html">상주예술단체</a></li>
+                            <li><a href="sub1/sub1_3.html">후원회</a></li>
+                        </ul>
+                    </li>
+                    <li class="m2 menu">
+                        <h3><a class="depth1" href="sub2/sub2_1.html">이용안내</a></h3>
+                        <ul>
+                            <li><a href="sub2/sub2_1.html">오시는길</a></li>
+                            <li><a href="sub2/sub2_2.html">관람예절</a></li>
+                            <li><a href="sub2/sub2_3.html">편의시설</a></li>
+                            <li><a href="sub2/sub2_4.html">우대사항</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="m3 menu">
+                        <h3><a class="depth1" href="sub3/sub3_1.html">공연&middot;예매</a></h3>
+                        <ul>
+                            <li><a href="sub3/sub3_1.html">공연일정</a></li>
+                            <li><a href="sub3/sub3_2.html">예매안내</a></li>
+                            <li><a href="poster/list.php">공연검색</a></li>
+                        </ul>
+                    </li>
+                    <li class="m4 menu">
+                        <h3><a class="depth1" href="sub4/sub4_1.html">대관안내</a></h3>
+                        <ul>
+                            <li><a href="sub4/sub4_1.html">대관시설</a></li>
+                            <li><a href="sub4/sub4_2.html">대관공지</a></li>
+                            <li><a href="sub4/sub4_3.html">대관신청</a></li>
+                            <li><a href="sub4/sub4_4.html">대관규정</a></li>
+                        </ul>
+                    </li>
+                    <li class="m5 menu">
+                        <h3><a class="depth1" href="sub5/sub5_1.html">예술교육</a></h3>
+                        <ul>
+                            <li><a href="sub5/sub5_1.html">예술교육 소개</a></li>
+                            <li><a href="sub5/sub5_2.html">프로그램 신청</a></li>
+                            <li><a href="sub5/sub5_3.html">갤러리</a></li>
+                        </ul>
+                    </li>
+                    <li class="m6 menu">
+                        <h3><a class="depth1" href="greet/list.php">열린광장</a></h3>
+                        <ul>
+                            <li><a href="greet/list.php">공지사항</a></li>
+                            <li><a href="concert/list.php">관람후기</a></li>
+                            <li><a href="sub6/sub6_3.html">자주묻는 질문</a></li>
+                            <li><a href="free/list.php">고객의 소리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+</header>

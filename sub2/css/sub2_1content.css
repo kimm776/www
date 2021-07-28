@@ -1,0 +1,30 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+.content_area{width: 1200px; margin: 0 auto;}
+.content_area .content_inner{margin: 150px 0;}
+.content_area #map{width:1200px; height:450px; margin-bottom: 100px;}
+
+.content_area .map_title dt{font-size: 1.6em; margin-bottom: 30px;}
+.content_area .map_title dt span{color: #ea5206;}
+.content_area .map_title dd{font-weight: 300; text-align: justify; line-height: 1.7em; margin-bottom: 100px; padding-bottom: 100px; border-bottom: 1px solid #ccc;}
+
+.content_area ul{overflow: hidden;}
+.content_area ul li{margin: 0 0 40px 10px; float: left;}
+.content_area ul dl{width: 590px;}
+.content_area ul .car dl{width: 1200px;}
+.content_area ul dt{font-size: 1.4em; margin-bottom: 38px;}
+.content_area ul dt .fas{font-size: 1.5em; color: #555;}
+.content_area ul dd{font-weight: 300; line-height: 2.5em;}
+.content_area ul strong{font-weight: 400; color: #3e4c97;}
+.content_area ul .sub_1{background: #003499; color: #fff; text-align: center; border-radius: 10px; padding: 3px 20px;}
+.content_area ul .sub_2{background: #509ed1; color: #fff; text-align: center; border-radius: 10px; padding: 3px 16px;}
+.content_area ul .bus dt, .content_area ul .bus dd{padding-left: 100px;}
+.content_area ul .bus_1{background: #dc2971; color: #fff; text-align: center; border-radius: 10px; padding: 3px 16px;}
+.content_area ul .bus_2{background: #26a97f; color: #fff; text-align: center; border-radius: 10px; padding: 3px 16px;}
+.content_area ul .car_1{background: #333; color: #fff; text-align: center; border-radius: 10px; padding: 3px 16px;}
+.content_area ul .car_2{background: #333; color: #fff; text-align: center; border-radius: 10px; padding: 3px 16px;}
+.content_area ul .car{clear: both; margin-top: 40px;}
+

@@ -1,0 +1,92 @@
+{
+    "program": [
+        {
+            "cimg": "./images/content2/close1.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 연극으로 비폭력대화",
+            "people": " 온라인 15쌍",
+            "place": " 스튜디오 A,B",
+            "age": " 초등 3~6학년, 보호자",
+            "phone": " 032-500-2062",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close2.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " [비대면] 도자야 놀자",
+            "people": " 온라인 30명",
+            "place": " 참여자 개별 공간",
+            "age": " 초등1~6학년",
+            "phone": " 032-500-2067",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close3.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 도자씨가 갑니다",
+            "people": " 전화 1명",
+            "place": " 내가 원하는 곳",
+            "age": " 부평구민 누구나",
+            "phone": " 032-500-2067",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close4.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 경이로운 미디어아트 2기",
+            "people": " 온라인 15명",
+            "place": " 부평문화사랑방",
+            "age": " 초등 4~6학년",
+            "phone": " 032-500-2063",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close5.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 2020 청소년음악학교",
+            "people": " 제한없음",
+            "place": " 부평문화사랑방",
+            "age": " 전연령",
+            "phone": " 032-500-2066",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close6.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 무엇이든 시장과 작은 새",
+            "people": " 온라인 3명, 전화 12명",
+            "place": " 중연습실",
+            "age": " 초등 3~6학년",
+            "phone": " 032-500-2066",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close7.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 내 마음의 보물지도! 2기",
+            "people": " 온라인 15명",
+            "place": " 공감168 다목적홀",
+            "age": " 초등학생 1~2학년",
+            "phone": " 032-505-2063",
+            "type3": " off"
+        },
+        {
+            "cimg": "./images/content2/close8.jpg",
+            "type1": " close",
+            "type2": " 접수마감",
+            "cname": " 6월 프로그램 도자시간",
+            "people": " 온라인 15명",
+            "place": " 세미나실",
+            "age": " 성인",
+            "phone": " 032-505-2067",
+            "type3": " off"
+        }
+    ]
+}

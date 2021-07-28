@@ -1,0 +1,145 @@
+<?
+	session_start();
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>부평구문화재단-이용안내</title>
+
+<!-- 로딩 이미지 -->
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub/sub2_common.css">
+<link rel="stylesheet" href="css/sub/sub2_1.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+<script src="./js/prefixfree.min.js"></script>
+<script>
+  //주소창 위로 올리기
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <? include "head.html"  ?>
+    <!-- 비주얼 영역 -->
+        <div id="inner_wrap">
+            <div class="visual">
+                <div class="title_box"></div>
+                <div class="title">
+                    <h3>USAGE INFORMATION</h3>
+                    <span>이용안내</span>
+                </div>
+                <ul class="tabs">
+                    <li class="on"><a href="./sub2_1.html">관람예절</a></li>
+                    <li><a href="./sub2_2.html">편의시설</a></li>
+                    <li><a href="./sub2_3.html">갤러리</a></li>
+                </ul>
+            </div>
+
+
+            <div class="title_area">
+                <div class="title_inner">
+                    <div class="line_map">
+                        <span class="hidden">home</span><i class="fas fa-home"></i> &gt; 이용안내 &gt; <strong>관람예절</strong>
+                    </div>
+                    <h2>관람예절</h2>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <ul>
+                    <li>
+                        <dl>
+                            <dt><span>01</span> 감상을 방해하는 행동</dt>
+                            <dd>객석 내 음식물 반입 및 섭취</dd>
+                            <dd>공연 중 옆사람과의 대화</dd>
+                            <dd>공연 중 서서 관람하는 행위</dd>
+                            <dd>지정석 이외의 자리에 앉는 행위</dd>
+                            <dd>음주 후 공연 관람</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>02</span> 사진 및 비디오 촬영</dt>
+                            <dd>공연 중 사전 허가를 받지 않은 모든 사진 촬영이 제한되고, 저작권이나 초상권 침해와도 관련이 있으니 삼가주시기 바랍니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>03</span> 어린이 나이 사전 체크</dt>
+                            <dd>공연 내용에 따라 관람 가능 연령이 나뉘어 있으며 관람 연령에 따라 입장이 불가능한 경우 입장이 제한됩니다.</dd>
+                            <dd>어린이 놀이방을 이용하여 주시기 바랍니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>04</span> 도착시간 체크</dt>
+                            <dd>공연장 도착은 30분 전, 객석 입장은 10분 전</dd>
+                            <dd>지연 관객을 위한 입장이 있다면 안내원의 안내에 따라 빈 좌석에 착석하여 주시고 휴식시간에 본 좌석으로 이동하여 주시기 바랍니다.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>05</span> 음식물 섭취 금지</dt>
+                            <dd>모든 일체의 음식물은 공연장으로 가져갈 수 없습니다.</dd>
+                            <dd>작은 소음이나 냄새가 주위 사람에게 방해가 됩니다.</dd>
+                            <dd>음식물이나 음료는 로비에서 즐기세요.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>06</span> 조심해야 할 물건</dt>
+                            <dd>소리가 많이나는 비닐제품이나 부피가 큰 외투 등은 객석으로 가지고 들어가실 수 없습니다.</dd>
+                            <dd>공연장 로비에 마련돼 있는 물품보관소에 맡기세요.</dd>
+                            <dd>보관번호표를 꼭 챙기세요!</dd>
+                        </dl>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+        <!-- 푸터 영역 -->
+        <? include "foot.html"  ?>
+
+
+
+
+<!-- script연결 -->
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/nav_topbtn.js"></script>
+</body>
+</html>

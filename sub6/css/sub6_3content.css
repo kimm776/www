@@ -1,0 +1,25 @@
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 150px auto; overflow: hidden;}
+
+.top_box{overflow: hidden; margin-bottom: 30px;}
+.tab_menu{overflow: hidden; margin-left: 120px; float: left;}
+.tab_menu li{float: left; border: 1px solid #ccc; border-radius: 30px; margin-right: 20px;}
+.tab_menu li a{display: block; padding: 10px 30px; border-radius: 30px; font-size: 1.2em; font-weight: 500;}
+
+.hgroup{float: right; margin: 15px 130px 0 0;}  
+.all{color:#333; font-size: 1.05em; display: block;} 
+
+.faq{width:1000px; border-bottom:1px solid #ddd; font-size:1.1em; margin-left: 100px;}   
+.faq .q{margin:0; border-top:1px solid #ddd; position: relative;}  
+.faq li:first-child .q{border-top: 2px solid #ea5206;}
+.faq .q strong{color: #ea5206; position: relative;}
+.faq .q .trigger{display:block; padding:25px 30px; color:#333; text-align:left; font-size: 1.1em;}  
+.faq .q .trigger:hover, .faq .q .trigger:active, .faq .q .trigger:focus{ color:#ea5206;}  
+.faq .q span{display: block; position: absolute; top: 25px; right: 30px;}
+.faq .a{padding:30px 35px; font-size: .9em; color: #555; line-height:1.8em; display: none; width: 930px; text-align: justify;
+    background: #f6f6f6; border-top: 1px solid #ccc; border-bottom: 1px solid #555;} 
+
+
+
+

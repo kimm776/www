@@ -1,0 +1,19 @@
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 150px auto;}
+
+.content_area h3{font-size: 1.8em; font-weight: 500; margin-bottom: 100px; position: relative; padding: 0 0 80px 20px; border-bottom: 2px solid #666;}
+.content_area h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+
+.fancyBox{position: relative;}
+.fancyBox p{font-size: 1.5em; margin-left: 20px; color: #222;}
+.fancyBox span{display: block; font-size: 1.5em; font-weight: 500; color: #fff; position: absolute; top: 0; right: 20PX; background: #ea5206;
+border-radius: 30px; padding: 7px 20px;}
+.fancyBox ul{overflow: hidden; margin: 40px 0 100px; position: relative;}
+.fancyBox ul li{float: left; margin: 30px 60px 0 0; transform: scale(.9); opacity: .6; transition: all .3s; position: relative;}
+.fancyBox ul li:hover{transform: scale(1); opacity: 1;}
+
+.fancyBox ul li:nth-child(3), .fancyBox ul li:nth-child(6){margin-right: 0;}
+/* .fancyBox img{width: 340px; height: 220px;} */
+
+.tabs .tab1{font-size: 1.3em; padding: 14px 170px; border: 2px solid rgb(196, 195, 195); background: #eee; color: #333; margin-left: 400px;}

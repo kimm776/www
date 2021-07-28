@@ -1,0 +1,70 @@
+/* content */
+/* slide_menu */
+.slide{background: #f8f8f8; border-bottom: 2px solid #ccc; width: 100%;}
+.slide_inner{ width: 1200px; margin: 0 auto;}
+
+#content .slideMenu{overflow: hidden;}
+#content .slideMenu li{float: left; width: 50%; text-align: center; position: relative;}
+#content .slideMenu li a{display: block; padding: 10px 0 15px; color: rgb(189, 189, 189);  font-weight: 500; font-size: 1.2em; transition: all .3s ease-out;}
+#content .slideMenu li:hover a{color: #ea5206; }
+#content .slideMenu li a::after{content: ''; width: 16px; height: 16px; position: absolute; bottom: -10px; left: 50%; margin-left: -7px; 
+    background: #ccc;  transform: rotate(45deg);    transition: all .3s ease-out;}
+#content .slideMenu li:hover a::after{background: #ea5206;}
+#content .slideMenu .link1::after{background: #ea5206;}
+#content .slideMenu .link1:hover a::after{border-bottom: 17px solid #ea5206;}
+
+/* con1 내용 */
+.con_box{width: 1200px; margin: 150px auto;  text-align: justify}
+.con_box h3{font-size: 1.8em; font-weight: 500; margin-bottom: 100px; position: relative; padding-left: 20px;}
+.con_box h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; top: 9px; left: 0;}
+
+.welcome{position: relative;}
+.welcome p{font-size: 1.8em; position: absolute; top: 132px; left: 70px; display: block; line-height: 1.6em; font-weight: 500; }
+.welcome p span{color: #ea5206;}
+.welcome p .name{color: #666; font-size: .6em; font-weight: 400;}
+
+.con1_innerbox p{line-height: 2em; color: #666; margin: 80px 0 150px;}
+.con1_innerbox p span{font-size: 1.1em; margin-top: 25px; display: block; color: #333;}
+
+
+/* con2 내용*/
+.tabs h3{margin-bottom: 50px;}
+.tabs p{font-weight: 500; font-size: 1.4em; text-align: center; margin: 30px 0 20px;}
+.tabs span{color: #3e4c97;}
+.tabs ul{overflow: hidden; text-align: center; margin: 20px 282px 80px;}
+.tabs ul li{float: left; font-size: 1.2em; position: relative; margin-right: 10px;}
+.tabs ul li a{color: #999; display: block; padding: 10px 40px;}
+.tabs ul li::before{content: ''; display: block; width: 1px; height: 25px; background: #888; position: absolute; top: 15px; right: -5px;}
+.tabs ul li:nth-last-child(1){margin-right: 0;}
+.tabs ul li:nth-last-child(1)::before{width: 0; height: 0;}
+
+.tabs ul .current a{color: #333; font-weight: bold; transition: all .3s ease-out;}
+.tabs ul li:hover a{color: #000; transition: all .3s ease-out;}
+
+.tab_menu li:hover{background: #eee;}
+
+.contlist{position: relative; margin-top: 100px;}
+.contlist .img1{height: 260px; background: url(../images/content1/1.jpg) center no-repeat;}
+.contlist .img2{height: 260px; background: url(../images/content1/2.jpg) center no-repeat;}
+.contlist .img3{height: 260px; background: url(../images/content1/3.jpg) center no-repeat;}
+.contlist div{position: relative;}
+.contlist div span{color: #fff; display: block; position: absolute; top: 98px; left: 50%; font-size: 2.5em; font-weight: 600; margin-left: -171px;
+text-shadow: 5px 5px 5px rgb(0, 0, 0, 50%);}
+.contlist .day{position: absolute; top: 190px; left: -50px; background: #ea5206; color: #fff; width: 350px; height: 100px;  text-align: center; font-size: 2.2em;
+font-weight: 600; padding-top: 38px;}
+.contlist dl{position: relative; margin: 100px 0 0 330px;}
+.contlist .dl1::before{content: ''; display: block; width: 1px; height: 590px; position: absolute; top: -100px; left: -31px; background: #ccc;}
+.contlist .dl2::before{content: ''; display: block; width: 1px; height: 1500px; position: absolute; top: -100px; left: -31px; background: #ccc;}
+.contlist .dl3::before{content: ''; display: block; width: 1px; height: 1080px; position: absolute; top: -100px; left: -31px; background: #ccc;}
+.contlist dt{font-weight: 500; font-size: 2em; color: #222; margin: 20px 0; padding-top: 12px; position: relative;}
+.contlist dt::before{content: ''; display: block; width: 22px; height: 22px; border-radius: 11px; position: absolute; top: 30px; left: -41px; background: #3e4c97;}
+.contlist dt::after{content: ''; display: block; width: 12px; height: 12px; border-radius: 6px; position: absolute; top: 35px; left: -36px; background: #fff;}
+.contlist dd{line-height: 2em;}
+
+
+ /* sticky menu */
+.navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0; background: #3e4c97; border-bottom: none; font-size: 1.1em;}  
+
+.navOn a:after{display: none;}
+.navOn .spy{ background: #fff; }  
+#content .slideMenu li .spy{color: #ea5206; }

@@ -1,0 +1,25 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area ul{margin: 150px 20px; overflow: hidden;}
+#content .content_area li{float: left;}
+#content .content_area dl{border: 1px solid #ccc; width: 442px; height: 265px; padding: 30px 40px; margin: 0 112px 102px 0;}
+#content .content_area .even dl{margin-right: 0;}
+#content .content_area .even dl{margin-right: 0;}
+#content .content_area .con5 dl, #content .content_area .con6 dl{margin-bottom: 0;}
+#content .content_area span{color: #ea5206; font-weight: 500; font-size: 1.5em;}
+#content .content_area dt{font-size: 1.3em; margin-bottom: 20px;}
+#content .content_area dd{font-size: 1em; color: #666; font-weight: 300; line-height: 1.7em; position: relative; padding: 0 15px; text-align: justify;
+margin-bottom: 8px;}
+#content .content_area dd::before{content: ''; width: 6px; height: 6px; border-radius: 3px; background: #ccc; position: absolute; top: 14px; left: 0;}
+
+#content .content_area .con1 dl{background: url(../images/content1/con1.jpg) 425px 240px no-repeat;}
+#content .content_area .con2 dl{background: url(../images/content1/con2.jpg) 425px 240px no-repeat;}
+#content .content_area .con3 dl{background: url(../images/content1/con3.jpg) 425px 240px no-repeat;}
+#content .content_area .con4 dl{background: url(../images/content1/con4.jpg) 425px 240px no-repeat;}
+#content .content_area .con5 dl{background: url(../images/content1/con5.jpg) 425px 240px no-repeat;}
+#content .content_area .con6 dl{background: url(../images/content1/con6.jpg) 425px 240px no-repeat;}
+

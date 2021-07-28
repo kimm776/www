@@ -1,0 +1,52 @@
+/* 재단소개 콘텐츠 내용 영역 */
+.title_area{border-bottom: none}
+#content .title_area h2{padding-bottom: 80px;}
+.slide{background: #f8f8f8; border-bottom: 2px solid #ccc; width: 100%;}
+.slide_inner{ width: 1200px; margin: 0 auto;}
+
+/* content - content_area */
+
+#content .slideMenu{overflow: hidden;}
+#content .slideMenu li{float: left; width: 50%; text-align: center; position: relative;}
+#content .slideMenu li a{display: block; padding: 10px 0 15px; color: rgb(189, 189, 189);  font-weight: 500; font-size: 1.2em; transition: all .3s ease-out;}
+#content .slideMenu li:hover a{color: #ea5206; }
+#content .slideMenu li a::after{content: ''; width: 16px; height: 16px; position: absolute; bottom: -10px; left: 50%; margin-left: -7px; 
+    background: #ccc;  transform: rotate(45deg);    transition: all .3s ease-out;}
+#content .slideMenu li:hover a::after{background: #ea5206;}
+#content .slideMenu .link1::after{background: #ea5206;}
+#content .slideMenu .link1:hover a::after{border-bottom: 17px solid #ea5206;}
+
+/* con 내용 */
+#content .content_inner{margin: 150px auto; width: 1200px;}
+#content h3{font-size: 1.8em; font-weight: 500; position: relative; padding-left: 18px;}
+#content h3::before{content: ''; width: 7px; height: 35px; background: #ea5206; position: absolute; bottom: 3px; left: 0;}
+#content p{font-weight: 400; margin: 60px 0 75px; line-height: 1.7em;}
+.reservation ul{text-align: justify; overflow: hidden;}
+.reservation li{float: left; margin-left: 50px; }
+.reservation .internet{margin-left: 0;}
+.reservation dl{width: 350px; border: 1px solid #ccc; padding-bottom: 40px;}
+.reservation ul dt{font-size: 1.2em; padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;}
+.reservation dl span{background: #3e4c97; color: #fff; padding: 15px 20px;}
+.reservation dl dd{font-size: .9em; font-weight: 300; padding: 0 35px; line-height: 1.7em; color: #666;}
+.reservation dl .icon{font-size: 4em; padding: 20px; text-align: center; color: #444;}
+
+#content .cancel{margin: 150px 0;}
+.cancel span{font-size: 1.1em; margin-bottom: 25px; display: block; position: relative; padding-left: 15px;}
+.cancel span::before{content: ''; background: #999; width: 6px; height: 6px; position: absolute; top: 13px; left: 0; border-radius: 3px;}
+.cancel table{border: 2px solid #666; border-right: none; border-left: none; text-align: center; width: 1200px; color: #666; font-weight: 300;}
+.cancel .time{margin-bottom: 100px;}
+.cancel table tr th{padding: 30px 0; background: #f2f2f2;  border-bottom: 1px solid #999; font-weight: 400; color: #444;}
+.cancel tr th:nth-child(1){width: 20%;}
+.cancel tr th:nth-child(2){width: 30%; }
+.cancel tr th:nth-child(3){width: 50%;}
+.cancel table tr td{padding: 30px 0; border-bottom: 1px solid #ccc; line-height: 1.8em;}
+.cancel tr td:nth-child(3){text-align: justify;}
+.cancel .list{list-style: disc;  padding: 0 20px 0 50px;}
+
+
+ /* sticky menu */
+ .navOn{position: fixed; width: 100%; z-index:60; left:0; top: 0; background: #3e4c97; border-bottom: none; font-size: 1.1em;}  
+
+ .navOn a:after{display: none;}
+ .navOn .spy{ background: #fff; }  
+ #content .slideMenu li .spy{color: #ea5206; }

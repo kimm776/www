@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* 와이드 pc  */
+.imgBox h2{position: absolute; top: 50%; left: 50%; color: #fff; font-family:  'Fugaz One', cursive; font-size: 97px; margin: -74px 0 0 -219px; letter-spacing: 4px;
+	animation: text-ani 1s;}
+@keyframes text-ani {
+	0% { transform:translateY(-30px); opacity: 0;}
+	100% { transform:translateY(0); opacity: 1;}
+}
+
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#imgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100;}
+
+.down{display: block; font-size: 22px; position: absolute; left:50%; margin-left: -84px; bottom: 13%; animation:ani 1s infinite alternate;}
+.down::after{content: ''; display: block; background: url(../images/lol.png) no-repeat; width: 55px; height: 57px; margin: 15px auto 0;}
+@keyframes ani {
+	0% { transform:scale(1); color: #fff;}
+	100% { transform:scale(1.1); color: #fff; }
+}
+
+#content{width: 100%; background: rgba(0, 0, 0, .8); color: #fff;}
+.intro{ padding: 0 10%; height: 1000px;}
+.con1 h3{text-align: center; padding: 150px 0 100px; text-transform: uppercase; font-size: 46px; font-family: 'Balthazar', serif; font-weight: lighter; letter-spacing: 3px;}
+
+.grid{padding-bottom: 150px; width: 95%; margin: 0 auto;}
+.grid-image-item,.grid--images .grid-sizer { width: 20%;}
+.grid-image-item {float: left; margin-bottom: 30px;}
+
+.grid-image-item img{border-radius: 3%; display: block; width: 96%; margin: 20px auto;}
+.grid-image-item ul{display: block; width: 96%; overflow: hidden; margin-left: 3%; text-transform: uppercase;}
+.grid-image-item ul li{float: left; margin: 5px 3% 5px 0; color: #0bc6e3; font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 17px;}
+.grid-image-item p{display: block;width: 96%; margin-left: 4%; letter-spacing: 1px; font-weight: 500; font-size: 22px; text-transform: uppercase;}
+
+
+@media screen and (max-width:1280px) {
+
+	.con1 h3{font-size: 40px;  padding-top: 130px;}
+	.grid-image-item, .grid--images .grid-sizer { width: 25%;}
+	.gal14, .gal15, .gal16 {display: none;}
+
+}
+
+@media screen and (max-width:1024px) {
+	
+	.con1 h3{font-size: 37px; padding-bottom: 90px;}
+	.grid-image-item, .grid--images .grid-sizer { width: 25%;}
+	.gal12, .gal13{display: none;}
+}
+
+@media screen and (max-width:768px) {
+
+	.con1 h3{font-size: 35px; padding-bottom: 80px;}
+	.grid-image-item, .grid--images .grid-sizer {width: 33.33%;}
+	.gal11, .gal10{display: none;}
+}
+
+@media screen and (max-width:640px){
+
+	.con1 h3{font-size: 33px;}
+	.grid-image-item, .grid--images .grid-sizer {width: 50%;}
+	.gal4, .gal6{display: none;}
+}
+  
+/* 소형 모바일 */
+@media screen and (max-width: 480px) {
+
+}

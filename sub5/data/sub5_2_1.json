@@ -1,0 +1,59 @@
+{
+    "program": [
+      {
+        "cimg": "./images/content2/con1.jpg",
+        "type1": " open",
+        "type2": " 접수중",
+        "cname": " 그림사랑방 2기",
+        "people": " 온라인 15명",
+        "place": " 부평문화사랑방",
+        "age": " 초등학교 5~6학년",
+        "phone": " 032-505-5950",
+        "type3": " on"
+      },
+      {
+        "cimg": "./images/content2/con2.jpg",
+        "type1": " open",
+        "type2": " 접수중",
+        "cname": " 블루이미지 프로젝트",
+        "people": " 온라인 15명",
+        "place": " 부평문화사랑방",
+        "age": " 초등학교 2~4학년",
+        "phone": " 032-505-5950",
+        "type3": " on"
+      },
+      {
+        "cimg": "./images/content2/con3.jpg",
+        "type1": " open",
+        "type2": " 접수중",
+        "cname": " 6월 삐-클라스",
+        "people": " 온라인 15명",
+        "place": " 부평문화사랑방",
+        "age": " 성인 누구나",
+        "phone": " 032-500-2063",
+        "type3": " on"
+      },
+      {
+        "cimg": "./images/content2/con4.jpg",
+        "type1": " open",
+        "type2": " 접수중",
+        "cname": " 경이로운 미디어아트 2기",
+        "people": " 온라인 15명",
+        "place": " 부평문화사랑방",
+        "age": " 초등 4~6학년",
+        "phone": " 032-500-2063",
+        "type3": " on"
+      },
+      {
+        "cimg": "./images/content2/con5.jpg",
+        "type1": " open",
+        "type2": " 접수중",
+        "cname": " 어린이 연극놀이",
+        "people": " 온라인 15명",
+        "place": " 부평문화사랑방",
+        "age": " 초등학생 1~2학년",
+        "phone": " 032-505-5950",
+        "type3": " on"
+      }
+    ]
+  }

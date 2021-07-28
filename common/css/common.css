@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 18px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+/* 헤드라인 폰트 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; font-weight: 100;300;400;500;700 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600&display=swap');
+/* font-family: 'Noto Serif KR', serif; font-weight: 200;300;400;500;600 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+/* font-family: 'Montserrat', sans-serif; font-weight: 200 300 400 500 600 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* font-family: 'Roboto', sans-serif; fontweight: 400 500 */
+
+/* 스킵네비게이션 */
+#skipNav{position:relative; width:100%; overflow:hidden; z-index: 1000;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{height:auto; padding:10px 0; background:#f2f2f2;}
+
+
+/* 헤더공통영역 */
+.wrap{width: 100%; overflow: hidden;}
+#headerArea{overflow: hidden; position: fixed; width: 100%;  height:165px; z-index: 99; background: #fff; border-bottom: 1px solid #ccc; box-shadow: 0 0 10px #999;
+  position: fixed; left: 0; top: 0;}
+#headerArea::before{content: ''; display: block; width: 100%; height: 40px; background: #3e4c97; position: absolute; top: 0; left: 0; z-index: -1;}
+#headerArea .header_inner{width: 1200px; margin: 0 auto;}
+#headerArea .header_top{float: right; }
+#headerArea .top_menu ul{font-family: 'Noto Sans KR', sans-serif; margin-right: 18px; float: right;}
+#headerArea .top_menu li{float: left; font-weight: 200; padding: 6px 15px 8px; cursor: pointer;}
+#headerArea .top_menu li.nick{cursor: initial; color: #fff;}
+#headerArea .top_menu li.nick i{font-size: 17px; margin-right: 5px;}
+#headerArea .top_menu .last{margin-right: 0;}
+#headerArea .top_menu .log a{color: #fff;}
+#headerArea .top_menu .login{background: #262e5d;}
+#headerArea .top_menu .log li:hover a{color: #dde2f0;}
+
+
+/* gnb영역 */ 
+
+#headerArea .header_bottom{float: left; width: 1200px;}
+#headerArea .logo a{float: left; display: block; width: 244px; height: 59px; background: url(../images/logo.png); text-indent: -999px; overflow: hidden; margin: 30px 0;}
+#headerArea .header_bottom #gnb{float: right; width: 956px;}
+#gnb ul.dropdownmenu{float:left; margin-left: 30px;}
+#gnb ul.dropdownmenu li.menu{position:relative; float:left; width:16.66%; height: 165px; padding: 35px 0; height: 52px; }
+#gnb ul.dropdownmenu li h3{font-family: 'Noto Sans KR', sans-serif; font-size: 1.2em; font-weight: 500;}
+#gnb ul.dropdownmenu li a.depth1{display:block; width:166px;padding: 15px 0; text-align: center; transition: all .5s;}
+
+/* 2depth */
+#gnb ul.dropdownmenu li ul{width:170px; height: 165px; position:absolute; top:115px; left:0; padding: 10px 0 0 0; line-height:2em; display: none;}
+#gnb ul.dropdownmenu li ul li{text-align:center; font-family: 'Noto Sans KR', sans-serif;}
+#gnb ul.dropdownmenu li ul li a{display:block; color:#666;}
+#gnb ul.dropdownmenu li ul li a:hover{font-weight: bold; color: #333;}
+#gnb ul.dropdownmenu .menu{position: relative; }
+#gnb ul.dropdownmenu .menu::after{content: ''; display: block; width: 0; height: 4px; background: #3e4c97; position: absolute; opacity: 0; left: 50%; bottom: 15px; transition: all .4s; }
+#gnb ul.dropdownmenu .menu:hover::after{opacity: 1; width: 90%; left: 10%; display: block;}
+
+
+/* serach box */
+.search_box{position: fixed; top: 165px; left: 0; width: 100%;background: #fff; z-index: 99; height: 190px; border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; box-shadow: 0 0 5px #eee; display: none;}
+.search_box .search_wrap{width: 949px;  margin: 0 auto; }
+#list_search{overflow: hidden;}
+.search_box .input{width: 827px; height: 50px; border: 1px solid #bbb; outline: 0; font-size: 1.2em; font-family: 'Noto Sans KR', sans-serif;
+  margin: 45px 10px 0 0; padding: 0 20px; float: left;}
+.search_box #list_search5 .button{width: 70px; height: 52px; background: #3c3b39; border: none; margin: 45px 0 10px; font-size: 1em; color: #fff;
+  padding: 4px 0 3px; cursor: pointer;  float: left; font-weight: 500;}
+.search_box dl{overflow: hidden; margin-top: 8px; color: #666; }
+.search_box dt{float: left; border: 2px solid #aaa; border-radius: 30px; padding: 0 15px 5px; font-weight: 500;}
+.search_box dd{float: left; margin: 3px 10px 0 25px; position: relative;}
+.search_box dd::before{content: ''; display: block; width: 2px; height: 22px; background: #999; position: absolute; top: 4px; right: -20px;}
+.search_box dd:last-child:before{background: none;}
+
+
+/* serach box 클릭 애니메이션 */
+
+/* 푸터공통영역 */
+#footerArea{background: #dee0e0; width: 100%; height: 190px; position: relative; }
+#footerArea::before{content: ''; display: block; width: 100%; height: 1px; background: #999; position: absolute; top: 56px; left: 0;  z-index: 1;}
+#footerArea .footer_inner{width: 1200px; height: 190px; margin: 0 auto; position: relative;}
+#footerArea .footer_top{float: left; height: 57px;}
+#footerArea .footer_menu ul{font-family: 'Noto Sans KR', sans-serif; font-size: .9em; font-weight: 400; margin: 15px 0 15px 0;}
+#footerArea .footer_menu li{float: left;}
+#footerArea .footer_menu a{color: #666;  padding: 5px 45px;}
+#footerArea .footer_menu a:first-child{padding-left: 0;}
+#footerArea .footer_menu a:hover{color: #333; font-weight: 500;}
+
+/* sns */
+#footerArea .sns{position: absolute; top: 45px; right: -30px;}
+#footerArea .sns ul{font-family: 'Noto Sans KR', sans-serif; font-size: 1.5em; margin: 0 35px 0 0;}
+#footerArea .sns li{float: right; }
+#footerArea .sns a{color: #666; padding: 0 0 10px 20px;}
+#footerArea .sns a:hover{color: #222;}
+
+#footerArea .footer_bottom{clear: both; float: left; height: 133px; width: 1200px; position: relative;}
+#footerArea .footer_bottom img{float: left; margin: 35px 0 40px 0;}
+#footerArea .footer_bottom .add_copy{float: left; font-family: 'Noto Sans KR', sans-serif; font-size: .8em; color: #777;
+margin: 35px 0 0 80px;}
+#footerArea .footer_bottom .copy{color: #666;}
+
+/* 상단이동 버튼 */
+.topMove{display:block; width: 58px; height: 58px; background: #3e4c97; border-radius: 50%; position: fixed; left:50%; margin-left: 640px; bottom:240px;}
+.topMove i{color: #fff; font-size: 2.5em; padding: 5px 0 0 16px;}
+
+/* 패밀리사이트 */
+.select{width:260px; height:57px; position: absolute; top: 0; right: 0; border-left: 1px solid #999; border-right: 1px solid #999;}
+.select .arrow{ display:block; padding: 17px 0 17px 30px; text-transform: uppercase; color: #444; font-weight: 500; font-family: 'Roboto', sans-serif;}
+.select .arrow i{font-size: 1.3em; position: absolute; top: 17px; right: 25px;}
+.select .aList{ position:absolute; top:-220px; left:-1px; width:260px; border:1px solid #999; display:none}
+.select .aList li{ line-height:1.5em; border-bottom:1px solid #ccc; background: #dee0e0;}
+.select .aList li a{display:block; padding: 8px 15px;}
+.select .aList li a:hover{ background:#F0F0F0; color:#333}
+

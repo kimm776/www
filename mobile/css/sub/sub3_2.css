@@ -1,0 +1,26 @@
+
+/* 컨텐츠1 */
+.content{margin: 65px 5% 100px;}
+
+.content h3{color: #333; text-align: left; font-size: 21px; margin: 40px 0 25px; position: relative; padding-left: 13px;}
+.content h3::before{content: ''; display: block; width: 4px; height: 22px; background: #ea5206; position: absolute; top: 4px; left: 0;}
+.content p{font-size: 17px; margin-bottom: 30px; text-align: justify;}
+.ticket ul{border: 1px solid #ccc; padding: 7% 5%;}
+.ticket li{margin-bottom: 20px;}
+.ticket li:last-child{margin-bottom: 0;}
+.ticket dl{overflow: hidden;}
+.ticket dt{font-size: 17px; float: left;}
+.ticket strong{padding: 5px 0 0 50px; display: block; width: 200px; font-weight: 500;}
+.ticket dt span{color: #fff; background: #3e4c97; display: block; padding: 5px 10px; width: 18px; float: left;}
+.ticket dd{clear: both; font-weight: 300; color: #222; line-height: 1.8; font-size: 16px; text-align: justify;}
+.ticket dd:last-child{margin-bottom: 25px;}
+.ticket li:last-child dd:last-child{margin-bottom: 0;}
+.ticket i{font-size: 50px; margin: 20px 0 30px 45%;}
+
+.cancel h3{margin-top: 90px;}
+.cancel dl{border: 1px solid #ccc; padding: 7% 5%; margin-top: 30px; font-size: 17px;}
+.cancel dt{font-size: 17px; position: relative; padding-left: 12px; margin-bottom: 22px; font-weight: 500;}
+.cancel dt::before{content: ''; display: block; width: 5px; height: 5px; border-radius: 50%; background: #999; position: absolute; top: 12px; left: 0;}
+.cancel dd{margin-bottom: 8px; line-height: 1.8; font-size: 16px; text-align: justify;}
+.cancel dd:last-child{background: #f1f1f1; color: #ea5206; padding: 5%; margin-top: 20px;}
+.cancel dd span{font-weight: 300;}

@@ -1,0 +1,41 @@
+/* 재단소개 콘텐츠 내용 영역 */
+
+/* content - content_area */
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 150px auto; overflow: hidden;}
+
+.content_area .left{float: left;}
+.content_area .left ul{width: 400px;}
+.content_area .left li{font-size: 1.2em; margin-bottom: 20px; position: relative; line-height: 2em;}
+.content_area .left li a{ color: #333;}
+.content_area .left li:hover a{background: #ededed; padding: 1px 3px 2px;}
+.content_area .left .current{color: #333; font-size: 1.1em; padding: 5px 13px 6px 13px; margin-left: 38px; transition: all .5s; background: #ededed;}
+.content_area .left .current::before{content: ''; width: 20px; height: 2px; background: #333; position: absolute; top: 20px; left: 0;}
+.content_area .left .current::after{content: ''; width: 9px; height: 9px; border-radius: 50%; background: #333; position: absolute; top: 17px; left: 18px;}
+
+.content_area .right{float: right;}
+.content_area .right dl{margin-bottom: 100px; width: 760px; position: relative; border-bottom: 1px solid #ccc; padding-bottom: 100px;}
+.content_area .right dt{font-size: 1.7em; margin-bottom: 50px; position: relative; padding-left: 20px; font-weight: 500;}
+.content_area .right dt::Before{content: ''; width: 8px; height: 35px; background: #ea5206; position: absolute; top: 7px; left: 0;}
+.content_area .right dd{margin-top: 50px; line-height: 1.9em; text-align: justify; font-size: .9em;}
+.content_area .right .fas{font-size: 1.2em; color: #666;}
+.content_area .right .last{border-bottom: none; margin-bottom: 0; padding-bottom: 0;}
+
+.content_area .right .down{overflow: hidden; position: absolute; top: 0; right: 3px;}
+.content_area .right .down li{border: 1px solid #ccc; width: 140px; text-align: center; float: right; margin-left: 25px;}
+.content_area .right .down li a{padding: 8px 5px; display: block; background: #f5f5f5; color: #666;}
+.content_area .right .down li a .fas{padding-left: 6px; color: #666;}
+.content_area .right .down li a .fas:hover{color: #fff;}
+.content_area .right .down li:hover a{background: #ff8410; color: #fff;}
+
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; top: 250px; z-index:60; }
+.navOn a{transition: all .5s;}
+.navOn .spy{background: #ededed; font-size: 1.2em;} 
+
+/* 애니메이션 */
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; } /* 처음에 안보이게 하기 ****** */
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; } /* 보이게 하는 가상클래스 ****** */
+.delay-04s { animation-delay: 0.4s;} /* 지연시간 ****** */
+

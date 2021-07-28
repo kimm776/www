@@ -1,0 +1,45 @@
+/* 재단소개 콘텐츠 내용 영역 */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+/* font-family: 'East Sea Dokdo', cursive; */
+
+/* con 내용 */
+#content .content_area{width: 1200px; margin: 150px auto; overflow: hidden;}
+*{margin: 0; padding: 0;}
+a{color: #333; text-decoration: none;}
+
+.content_area .left{float: left; }
+.content_area .left h3{font-size: 2em; margin: 71px 0 80px 10px; position: relative; font-family: 'Gugi', cursive; font-weight: 400;}
+.content_area .left h3::before{content: ''; width: 63px; height: 3px; background: #ea5206; position: absolute; top: -7px; left: 0;}
+.content_area .left h3 span{color: #ea5206;}
+.content_area .left p{width: 545px; text-align: justify; line-height: 1.8em; font-weight: 300; margin-left: 10px; position: relative;}
+.content_area .left p span{color: #3e4c97; font-weight: 400;}
+.content_area .left p span:last-child{color: #333; position: absolute; display: block; text-transform: uppercase;
+    font-size: 1.2em; top: 247px; left: 0; font-weight: 500;}
+
+
+.top{position: relative; height: 800px;}
+.top .gallery{float: right;}
+.top ul{position: absolute; top: 500px; left: 10px;}
+.top .big{margin: 55px 12px 0 0; box-shadow: 1px 5px 10px 4px #ccc;}
+.top .gallery li{float: left; margin-right: 25px;}
+.top .gallery li:last-child{margin-right: 0;}
+
+.gallery li{transition: all .4s; transform: scale(1);}
+.gallery li:hover{transform: scale(1.1);}
+
+.gallery ul img{border: 5px solid #fff;}
+
+
+.content_area .bottom{clear: both;}
+.bottom h3{font-size: 1.5em; position: relative; font-weight: 500; margin: 0 0 60px;}
+.bottom p{font-weight: 300; line-height: 1.8em; text-align: justify;}
+
+.bottom .text{margin-top: 55px; overflow: hidden;}
+.bottom .text .img_box{overflow: hidden; width: 600px; height: 385px; margin: 42px 0 18px 13px; box-shadow: 1px 5px 13px 4px #ccc; transition: all .7s ease-out; float: left;}
+.bottom .text img{ transition: all .7s ease-out; transform: scale(1);}
+.bottom .text img:hover{transform: scale(1.1); border-radius: 90px;}
+.bottom .text .img_box:hover{border-radius: 90px;}
+.bottom .text dl{float: right; width: 520px;}
+.bottom .text dt{margin: 30px 0 15px;}
+.bottom .text dt span{font-weight: 400; margin-top: 20px; font-size: 1.1em;}
+.bottom .text dd{font-weight: 300; font-size: .9em; line-height: 1.8em; text-align: justify;}
